@@ -4,4 +4,5 @@ The main idea is to build a particle-based visual effect that reacts to users in
 Using Unity 6.3 LTS with VS22
 
 CG_Particle_Simulator - Unity Project
+
 Models/ - Any models needed for project for blender
