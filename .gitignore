@@ -1,26 +1,41 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+# Unity generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
 
-# Rider / VS / VSCode
-.vscode/
+# Unity asset meta files for Library
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio / Rider
+.vs/
 .idea/
 *.csproj
+*.unityproj
 *.sln
+*.suo
 *.user
-*.userprefs
 *.pidb
 *.booproj
+ExportedObj/
 
-# Unity packages cache
+# Crashlytics
+crashlytics-build.properties
+
+# Packages - important to keep Packages/ folder but ignore cache
 Packages/packages-lock.json
-
-# OS junk
-.DS_Store
-Thumbs.db
