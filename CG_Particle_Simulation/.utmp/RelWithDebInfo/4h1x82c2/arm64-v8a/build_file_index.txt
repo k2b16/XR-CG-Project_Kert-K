@@ -1,0 +1,2 @@
+D:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
