@@ -6,13 +6,13 @@ public class ParticleInteract : MonoBehaviour
 {
     [Header("References")]
     public ParticleSystem particles;
-    public Transform controllerTransform;
+    public Transform controllerTf;
 
-    [Header("Interaction Settings")]
-    public float influenceRadius = 0.5f;
-    public float influenceStrenght = 2.0f;
+    [Header("Interaction")]
+    public float infRadius = 1.5f;
+    public float infStrenght = 100f;
 
-    private ParticleSystem.Particle[] _particleArray;
+    private ParticleSystem.Particle[] particleArr;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,21 +22,29 @@ public class ParticleInteract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Controller pos:" + controllerTransform.position);
-        if (particles == null || controllerTransform == null) return;
+        // Debug.Log("Controller pos:" + controllerTf.position);
+        if (particles == null || controllerTf == null) return;
         int count = particles.particleCount;
-        if (_particleArray == null || _particleArray.Length < count) _particleArray = new ParticleSystem.Particle[count];
+        if (particleArr == null || particleArr.Length < count) particleArr = new ParticleSystem.Particle[count];
 
-        particles.GetParticles(_particleArray, count );
+        particles.GetParticles(particleArr, count );
         for (int i = 0; i < count; i++) {
-            Vector3 toParticle = _particleArray[i].position - controllerTransform.position;
+            Vector3 toParticle = particleArr[i].position - controllerTf.position;
             float distance = toParticle.magnitude;
-            if (distance < influenceStrenght && distance > 0.01f)
+            if (distance < infRadius && distance > 0.01f)
             {
-                float force = (1f - (distance / influenceRadius)) * influenceStrenght;
-                _particleArray[i].velocity += toParticle.normalized * force * Time.deltaTime;
+                float force = (1f - (distance / infRadius)) * infStrenght;
+                Vector3 flyDir = toParticle.normalized;
+                particleArr[i].velocity = flyDir * force;
+                particleArr[i].remainingLifetime = Mathf.Max(particleArr[i].remainingLifetime, 2f);
             }
         }
-        particles.SetParticles(_particleArray, count);
+        particles.SetParticles(particleArr, count);
+    }
+    void OnDrawGizmos()
+    {
+        if (controllerTf == null) return;
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(controllerTf.position, infRadius);
     }
 }
