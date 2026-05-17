@@ -1,0 +1,8988 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F;
+struct Action_1_t16439AC0253118742562394ACC7B97D80B44200D;
+struct Action_1_tBAC06A706FB1F9A81AEF7EDF6202FC51D1E52C3A;
+struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
+struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+struct Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3;
+struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
+struct IPointableElement_t5D9695CD8759D692B8F8430451929CCB2EBF63F1;
+struct ITransformer_tBB31E099D9CEFBD0AAFB52F351CF96DF5E74F032;
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5;
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E;
+struct ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF;
+struct ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85;
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
+struct PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct String_t;
+struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct ThrowWhenUnselected_t4829F7399CE9191689CB9E421B9D512A9EC34D0A;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VFXEventAttribute_tA764A595356174BA39C782A8A64B47B39FB3F518;
+struct VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1;
+struct WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE;
+struct WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99;
+struct WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76;
+struct WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D;
+struct WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4;
+struct WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C;
+struct WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B;
+struct WaterVFXDriver_tD9398CC45D0792249DFD4CB8A2F3DFA9AC360555;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____9EB96BBFF927304FD7680DD08EEC323435B985562BEB193BCB65A9A56FC9796D_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DC0B459A0CCC8699834CAD06724E0C7FBAC19FDE54A0A1D2BAF7F2B3FFD54B18_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral013970B1F4F113D9905320B8DA67EDC0BBBF74AF;
+IL2CPP_EXTERN_C String_t* _stringLiteral02E1E748DF9EC8AF9775C056147E31750EAB7B6C;
+IL2CPP_EXTERN_C String_t* _stringLiteral1CCD1E6E9D5768E3E47F88B9814EB76BA65279B0;
+IL2CPP_EXTERN_C String_t* _stringLiteral20CB71FE69618E7CA164F27008333DEFC21C24B1;
+IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
+IL2CPP_EXTERN_C String_t* _stringLiteral2CC6319BE0CA818BDDDA53B2D288979E6E067DB3;
+IL2CPP_EXTERN_C String_t* _stringLiteral38C93032F5CD8B30B1813FBF96243208F6B0DF4F;
+IL2CPP_EXTERN_C String_t* _stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E;
+IL2CPP_EXTERN_C String_t* _stringLiteral47BB19AC6F1786173D4601D1964D2A377F45ED6E;
+IL2CPP_EXTERN_C String_t* _stringLiteral4C4E6C3417A3FC493E1162D0F1E88686B748A413;
+IL2CPP_EXTERN_C String_t* _stringLiteral4CFC94AF0F63AC5119808522DECC077265AFBE21;
+IL2CPP_EXTERN_C String_t* _stringLiteral6067E93B7ED6BC9634C2207045961FBB1126B92A;
+IL2CPP_EXTERN_C String_t* _stringLiteral70291D3957F49A7697FAA78CAED6EBB7ACFFA30B;
+IL2CPP_EXTERN_C String_t* _stringLiteral79C1C943090E96A4301E4D0B30A83C6F8CA81FFC;
+IL2CPP_EXTERN_C String_t* _stringLiteral7EE215F509504E427F28E58445A5ECC8DFA709AF;
+IL2CPP_EXTERN_C String_t* _stringLiteral8450C6B1DD1E39B0EE1CE716C3CC2057E62E6E52;
+IL2CPP_EXTERN_C String_t* _stringLiteral959CF873921F0F3DDF40E84E6B1367178DD0A7FC;
+IL2CPP_EXTERN_C String_t* _stringLiteral97A70A846EA85E5C9C1B9D8E0AF7907D26B13B43;
+IL2CPP_EXTERN_C String_t* _stringLiteral9DB92B5B800C8404C08CA5C1B72B971198B6FFB3;
+IL2CPP_EXTERN_C String_t* _stringLiteralA07E145031DDAA4CA543A2D311378F4152EE110F;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD18094E78B91ECB0FE804F196C728D94A5D9BEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralAFD7E2C40125870208257DE1B3E556F8E0A24F1E;
+IL2CPP_EXTERN_C String_t* _stringLiteralCCB9A4A18B99EC3F7FE438F820F07E5CD0ABC857;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA9119F365AF22122C44D4DC8EFF6A0227FB2D13;
+IL2CPP_EXTERN_C String_t* _stringLiteralE3C3994CA05814950169C0E159FF9829A7ECD820;
+IL2CPP_EXTERN_C String_t* _stringLiteralF8B84ABCCB5B0A01E1E53A5CB343B016265670DD;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m7C9BD10AE0F62A09AE091A8C0A9C51FF0F9C0BAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mC2DD444DE804211C8EADF53E224C7103F9A3CCD1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_mB00AD492814D9BBF0688370C0C398EF9AF05CF1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_m833827489977BA9E82E42A2B2640DC6A2E77D775_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WaterSimulation_OnReadbackComplete_m4C0869861D0367B1EA8C5F7E6C0FCF4C6D0F9BA8_RuntimeMethod_var;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
+{
+	bool ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	bool ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	String_t* ___m_name;
+	String_t* ___englishname;
+	String_t* ___nativename;
+	String_t* ___iso3lang;
+	String_t* ___iso2lang;
+	String_t* ___win3lang;
+	String_t* ___territory;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture;
+	bool ___constructed;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
+	bool ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	char* ___m_name;
+	char* ___englishname;
+	char* ___nativename;
+	char* ___iso3lang;
+	char* ___iso2lang;
+	char* ___win3lang;
+	char* ___territory;
+	char** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	Il2CppChar* ___m_name;
+	Il2CppChar* ___englishname;
+	Il2CppChar* ___nativename;
+	Il2CppChar* ___iso3lang;
+	Il2CppChar* ___iso2lang;
+	Il2CppChar* ___win3lang;
+	Il2CppChar* ___territory;
+	Il2CppChar** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___numberGroupSizes;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___currencyGroupSizes;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___percentGroupSizes;
+	String_t* ___positiveSign;
+	String_t* ___negativeSign;
+	String_t* ___numberDecimalSeparator;
+	String_t* ___numberGroupSeparator;
+	String_t* ___currencyGroupSeparator;
+	String_t* ___currencyDecimalSeparator;
+	String_t* ___currencySymbol;
+	String_t* ___ansiCurrencySymbol;
+	String_t* ___nanSymbol;
+	String_t* ___positiveInfinitySymbol;
+	String_t* ___negativeInfinitySymbol;
+	String_t* ___percentDecimalSeparator;
+	String_t* ___percentGroupSeparator;
+	String_t* ___percentSymbol;
+	String_t* ___perMilleSymbol;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___nativeDigits;
+	int32_t ___m_dataItem;
+	int32_t ___numberDecimalDigits;
+	int32_t ___currencyDecimalDigits;
+	int32_t ___currencyPositivePattern;
+	int32_t ___currencyNegativePattern;
+	int32_t ___numberNegativePattern;
+	int32_t ___percentPositivePattern;
+	int32_t ___percentNegativePattern;
+	int32_t ___percentDecimalDigits;
+	int32_t ___digitSubstitution;
+	bool ___isReadOnly;
+	bool ___m_useUserOverride;
+	bool ___m_isInvariant;
+	bool ___validForParseAsNumber;
+	bool ___validForParseAsCurrency;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D273_tCF68B886A39515B379825A4D6FF7B58C32A9A977 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D273_tCF68B886A39515B379825A4D6FF7B58C32A9A977__padding[273];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D649_tDF0142B26AE7565C3495450C48FA85F6E70F4841 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D649_tDF0142B26AE7565C3495450C48FA85F6E70F4841__padding[649];
+	};
+};
+#pragma pack(pop, tp)
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_pinvoke
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9_marshaled_com
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2 
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2_marshaled_pinvoke
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2_marshaled_com
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___m_ParticleSystem;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_Version;
+};
+struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Center;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Extents;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct FilterMode_t4AD57F1A3FE272D650E0E688BA044AE872BD2A34 
+{
+	int32_t ___value__;
+};
+struct GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713 
+{
+	int32_t ___value__;
+};
+struct IndexFormat_tE699D38323B3B0887DF054EAFF0CF035DF28E2BB 
+{
+	int32_t ___value__;
+};
+struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	int32_t ___value__;
+};
+struct TextureWrapMode_tF9851343029052ED45668D1C99BAE09B2CCC13AD 
+{
+	int32_t ___value__;
+};
+struct Axis1D_tCD2A64D577CBC508F8F4BEFF29BE0E29D5FECB3E 
+{
+	int32_t ___value__;
+};
+struct Controller_tBCAA59EAD9BFE2381E974A48B203D044B6CE1ECB 
+{
+	int32_t ___value__;
+};
+struct Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Position;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Velocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_AnimatedVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_InitialVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_AxisOfRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Rotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_AngularVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_StartSize;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_StartColor;
+	uint32_t ___m_RandomSeed;
+	uint32_t ___m_ParentRandomSeed;
+	float ___m_Lifetime;
+	float ___m_StartLifetime;
+	int32_t ___m_MeshIndex;
+	float ___m_EmitAccumulator0;
+	float ___m_EmitAccumulator1;
+	uint32_t ___m_Flags;
+};
+struct State_tDF84E49A0745A483C7C27BB5598121C2952D83F7 
+{
+	int32_t ___value__;
+};
+struct NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	VFXEventAttribute_tA764A595356174BA39C782A8A64B47B39FB3F518* ___m_cachedEventAttribute;
+	Action_1_tBAC06A706FB1F9A81AEF7EDF6202FC51D1E52C3A* ___outputEventReceived;
+};
+struct PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___liftMultiplier;
+	float ___dragMultiplier;
+	float ___minGlideSpeed;
+	float ___throwForceMultiplier;
+	float ___rotationSpeed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___modelForward;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rb;
+	Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* ____grabbable;
+	bool ____wasGrabbed;
+	bool ____hasBeenThrown;
+};
+struct ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	int32_t ___particleCount;
+	float ___radius;
+	MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 ___mainModule;
+	ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2 ___shapeModule;
+};
+struct ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___controllerTf;
+	float ___infRadius;
+	float ___infStrenght;
+	ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* ___particleArr;
+};
+struct PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ____transferOnSecondSelection;
+	bool ____addNewPointsToFront;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ____forwardElement;
+	RuntimeObject* ___U3CForwardElementU3Ek__BackingField;
+	Action_1_t16439AC0253118742562394ACC7B97D80B44200D* ___WhenPointerEventRaised;
+	List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* ____points;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____pointIds;
+	List_1_t785970ECD3400B166B17F92860A0ABA24BBD51B2* ____selectingPoints;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____selectingPointIds;
+	bool ____started;
+};
+struct WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* ___water;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___waterBlobPrefab;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___handTransform;
+	int32_t ___controller;
+	float ___gripThreshold;
+	float ___maxLiftDistance;
+	float ___liftSpeed;
+	float ___depressionStrength;
+	float ___depressionRadius;
+	float ___depressionInterval;
+	float ___releaseGravity;
+	float ___impactSplashStrength;
+	float ___impactSplashRadius;
+	int32_t ___state;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___blobInstance;
+	WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* ___blobScript;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___liftSourceWorldXZ;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fallVelocity;
+	float ___lastDepressionTime;
+};
+struct WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___fullRadius;
+	float ___wobbleStrength;
+	float ___wobbleDamping;
+	float ___growth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastTrackedPos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentSquash;
+};
+struct WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___source;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___attractor;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___blobPrefab;
+	int32_t ___pointCount;
+	float ___segmentLength;
+	float ___sourceFollowSpeed;
+	float ___springStrength;
+	float ___damping;
+	float ___attractStrength;
+	float ___orbitRadius;
+	float ___swirlStrength;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___swirlAxis;
+	float ___baseBlobSize;
+	float ___endBlobSize;
+	float ___sizeWobble;
+	float ___positionWobble;
+	float ___wobbleSpeed;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___points;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___velocities;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___blobs;
+};
+struct WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* ___water;
+	float ___entrySplashStrength;
+	float ___trailSplashStrength;
+	float ___entrySplashRadius;
+	float ___trailSplashRadius;
+	float ___minVelocityForSplash;
+	float ___trailSplashInterval;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastPos;
+	bool ___wasUnderwater;
+	float ___lastTrailSplashTime;
+};
+struct WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___size;
+	int32_t ___subdivisions;
+	float ___boundsHeightPadding;
+};
+struct WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___source;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___attractor;
+	int32_t ___pointCount;
+	float ___segmentLength;
+	float ___sourceFollowSpeed;
+	float ___springStrength;
+	float ___damping;
+	float ___attractStrength;
+	float ___orbitRadius;
+	float ___swirlStrength;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___swirlAxis;
+	float ___noiseStrength;
+	float ___noiseSpeed;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___lr;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___points;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___velocities;
+};
+struct WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___waveCompute;
+	int32_t ___resolution;
+	float ___damping;
+	int32_t ___stepsPerFrame;
+	float ___planeSize;
+	float ___heightScale;
+	float ___defaultSplashRadius;
+	float ___defaultSplashStrength;
+	bool ___enableReadback;
+	int32_t ___readbackInterval;
+	RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* ___heightTex;
+	int32_t ___writeIdx;
+	int32_t ___kStep;
+	int32_t ___kSplash;
+	int32_t ___kClear;
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___meshRenderer;
+	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___mpb;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___heightCache;
+	bool ___readbackInFlight;
+	int32_t ___framesSinceReadback;
+};
+struct WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___source;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___attractor;
+	int32_t ___pointCount;
+	float ___segmentLength;
+	float ___sourceFollowSpeed;
+	float ___springStrength;
+	float ___damping;
+	float ___attractStrength;
+	float ___orbitRadius;
+	float ___swirlStrength;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___swirlAxis;
+	int32_t ___radialSegments;
+	float ___startRadius;
+	float ___endRadius;
+	float ___radiusWobble;
+	float ___centerWobble;
+	float ___wobbleSpeed;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___points;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___velocities;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___vertices;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___normals;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___uvs;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___triangles;
+	int32_t ___lastPointCount;
+	int32_t ___lastRadialSegments;
+};
+struct WaterVFXDriver_tD9398CC45D0792249DFD4CB8A2F3DFA9AC360555  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* ___vfx;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___source;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___orb;
+	float ___pullStrength;
+};
+struct Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3  : public PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7
+{
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ____oneGrabTransformer;
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ____twoGrabTransformer;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____targetTransform;
+	int32_t ____maxGrabPoints;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rigidbody;
+	bool ____kinematicWhileSelected;
+	bool ____throwWhenUnselected;
+	bool ____forceKinematicDisabled;
+	Func_1_t11C3830580201E0A3A3A2C76523B7905EF40BCF7* ____timeProvider;
+	RuntimeObject* ____activeTransformer;
+	RuntimeObject* ___OneGrabTransformer;
+	RuntimeObject* ___TwoGrabTransformer;
+	ThrowWhenUnselected_t4829F7399CE9191689CB9E421B9D512A9EC34D0A* ____velocityThrow;
+	bool ____isKinematicLocked;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D273_tCF68B886A39515B379825A4D6FF7B58C32A9A977 ___9EB96BBFF927304FD7680DD08EEC323435B985562BEB193BCB65A9A56FC9796D;
+	__StaticArrayInitTypeSizeU3D649_tDF0142B26AE7565C3495450C48FA85F6E70F4841 ___DC0B459A0CCC8699834CAD06724E0C7FBAC19FDE54A0A1D2BAF7F2B3FFD54B18;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info;
+	RuntimeObject* ___shared_table_lock;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture;
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number;
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
+	bool ___IsTaiwanSku;
+};
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472_StaticFields
+{
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___invariantInfo;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields
+{
+	int32_t ___P_Input;
+	int32_t ___P_Output;
+	int32_t ___P_SplashTarget;
+	int32_t ___P_Resolution;
+	int32_t ___P_Damping;
+	int32_t ___P_SplashPos;
+	int32_t ___P_SplashRadius;
+	int32_t ___P_SplashStrength;
+	int32_t ___P_HeightTex;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D m_Items[1];
+
+	inline Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* m_Items[1];
+
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* m_Items[1];
+
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777_gshared (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B_gshared (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, int32_t ___0_layer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649_gshared (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_array, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m5F38AE6B74636F569647D545E365C5579E5F59CE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_parent, const RuntimeMethod* method) ;
+
+inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2 ParticleSystem_get_shape_mD7F072CC18587858138AA7B3A882995493AA7C80 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_ApplySettings_m70C918A31DC4B4DB3558AC72E60CC1BD8D9B9D61 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainModule_set_maxParticles_mF9E7A56D7E1A528904BE1A8C0E14F15C3AF0F748 (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShapeModule_set_radius_m37F79E13EB60FA39EAE36B49DAC4AC880416E89C (ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParticleSystem_get_particleCount_mC85541B2FA2DE2DF6824BE9423250CDC07C06076 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParticleSystem_GetParticles_mFC9EA6E092E60A76445F36A5EC611E9D2B5A1761 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* ___0_particles, int32_t ___1_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Particle_get_position_m3EDB68F03D6EC0F086D6FF6F25ABE7D0E1111837 (Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_velocity_mF4C1DE326CCABE480F44D3DF3873241E85A6303B (Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particle_get_remainingLifetime_m0677284AA2A1518AFC954CD0E8DCCE8F519055A9 (Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Particle_set_remainingLifetime_m3E58D8B3599B0BA6790D43022C3DF16E6896D018 (Particle_tF16C89682A98AB276CCBE4DA0A6E82F98500F79D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_SetParticles_m4EDBF9B885CD31D8F491636C49F4F1235FE66592 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* ___0_particles, int32_t ___1_size, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, float ___1_radius, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* Component_GetComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m7C9BD10AE0F62A09AE091A8C0A9C51FF0F9C0BAE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PointableElement_get_SelectingPointsCount_mAB3FB285F9B11D8A4F4FBE85EBCA7AAC11CC98A7 (PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 OVRInput_GetLocalControllerVelocity_m2E8ED9F38FCB0E781C796E72917D27F65A3EFF14 (int32_t ___0_controllerType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Rigidbody_get_isKinematic_mC20906CA5A89983DE06EAC6E3AFC5BC012F90CA1 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_toDirection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_m7A3EEEED21F986917107CBA6CC0106DCBC212198 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_force, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawRay_m28E5C4618CB5BB572C04D7CED2DDBDD8105FA596 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateIdle_m3F52CC3084C7DFF3E707F7F2830D34412FB455C0 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateReaching_m0045393597FF78E66DA7A68EA71EA443E199DDF6 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateHeld_m73A10FF2B553E10316F94E1EBB65AED3298DBD86 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateFalling_m60ACF8C4501C822E59DF8D6FDE8CDD11A04AA2FD (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8 (int32_t ___0_virtualMask, int32_t ___1_controllerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaterBender_IsGripping_m28028D666F9C735EF1B0AAA78040D07D43924CD2 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* WaterBender_get_Hand_mA4EEB4C0E9373C7FF73F7A659F2151D9A84679B0 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_SpawnBlob_mEA0EB2EB415A3F19D89128B57AF0CAFA1DDF06A2 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_atSurface, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_ReleaseBlob_m5C81F9716298E3AB72B43411DFCE31E84237895C (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_StampDepression_mD532338657A31AE48F22892A421A1D2CCF493E1A (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_SetGrowth_m6533FB6083A1F3E4A2EE3C46591B86B461AC0031 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, float ___0_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_SetMotion_m669FF897EA953BEAEF888BF822A0304F0AC3A5ED (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_trackedPos, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WaterSimulation_GetWaterSurfaceY_mB022F12EDACCA54A1320DC60A4029C530A4B3D43 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Splash_m27866B80FC65F6323393BD1EC5493A4E1AE19B66 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_strength, float ___2_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Depress_mF029146A00C90F8D19F2F17F95074D90FC3A1660 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_strength, float ___2_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
+}
+inline WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* GameObject_GetComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_m833827489977BA9E82E42A2B2640DC6A2E77D775 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* GameObject_AddComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_mB00AD492814D9BBF0688370C0C398EF9AF05CF1F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* WaterMeshGenerator_BuildPlaneMesh_m9739F7C4BA46EBAF85218D863C8062802BE301EE (WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds__ctor_mAF7B238B9FBF90C495E5D7951760085A93119C5A_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_bounds_m2E526E9B61ACA77D644C22A9D8EB49583012B54E (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_value, const RuntimeMethod* method) ;
+inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ComputeShader_FindKernel_m3BA5C50794FA6AF4C432E55FBBD7CB266532F659 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_AllocateTextures_m251048E1E5F6694739A5CD9F1C5369509AD2833F (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_ClearTextures_mBA8008D4F0E9CA67ABD80FCF7BB1285422857C35 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_BindTextureToMaterial_m10C3C229EAA49463BA9C19C63CB2F99F4D9138C1 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_ReleaseTextures_m2B3761443A7B3566C6B290F3E653533B44AE5440 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture__ctor_m0C81127DE754F64FDD3E80E94BE11054B2791F98 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_depth, int32_t ___3_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_enableRandomWrite_m1F1B5E033802C193449803411560DB4D5D4AEEAB (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_useMipMap_mB280A39DAB18372D3A0050FF20F730E5B0B44C32 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_autoGenerateMips_mDEFAC13954D315DE52B35B34577218D3AD4897A9 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RenderTexture_Create_mA6E4D3CCC84AC3F68E85AA0D6609E1692C672AD2 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetTexture_mA3F2EEE36DB76DD197EC7910B859854A63186AC3 (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_kernelIndex, int32_t ___1_nameID, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___2_texture, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetInt_m5BED46962875818A120FA6D2E4FD820B62BCE8AD (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_nameID, int32_t ___1_val, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_Dispatch_mEED7BA68C28B1B39E75208D0D4D9915D41985B0A (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_kernelIndex, int32_t ___1_threadGroupsX, int32_t ___2_threadGroupsY, int32_t ___3_threadGroupsZ, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Step_mFC11DB63A6446342B0D85D471BF1B3C699D86A1E (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_RequestReadback_mA83C60113BEE28EA709D8DAB4C8F621664708876 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetFloat_m2FE52744249AF4785EDA2F66ECF96B67E1EF2E7B (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_nameID, float ___1_val, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_GetPropertyBlock_mD062F90343D70151CA060AE7EBEF2E85146A9FBA (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___0_properties, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetTexture_m39F531D3F35D6C5B661A7B4F07DD7B8ACC22627F (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___0_nameID, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___0_properties, const RuntimeMethod* method) ;
+inline void Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777 (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 AsyncGPUReadback_Request_m5D899367806082794B10D6038D0ECDD23F7C4A1C (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_src, int32_t ___1_mipIndex, int32_t ___2_dstFormat, Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* ___3_callback, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AsyncGPUReadbackRequest_get_hasError_m374BB20A32B9DCDBFD8F81BBE542847B82F04EE5 (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, const RuntimeMethod* method) ;
+inline NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7* __this, int32_t ___0_layer, const RuntimeMethod* method)
+{
+	return ((  NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 (*) (AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7*, int32_t, const RuntimeMethod*))AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B_gshared)(__this, ___0_layer, method);
+}
+inline void NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649 (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_array, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70*, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*, const RuntimeMethod*))NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649_gshared)(__this, ___0_array, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_DispatchGaussian_m2F7C4D7B396F092FCBBCE846D04DA53C41A89494 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_signedStrength, float ___2_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComputeShader_SetVector_m4BD44B05B60DEEC7FB3EC03E1D3D4E72EA6BD3CD (ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* __this, int32_t ___0_nameID, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_val, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA (String_t* ___0_name, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_parent, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m5F38AE6B74636F569647D545E365C5579E5F59CE_gshared)(___0_original, ___1_position, ___2_rotation, ___3_parent, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlobChain_UpdateBlobs_mFF0C152EDE09E4BDE688EFE6548C0BAF17B2AF84 (WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon_UpdateRenderer_m0D602DEDBFBC74FFA37443EB525F602509E339F8 (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_positions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_MarkDynamic_m718089940F240AFE625D6DC9DA4E6F20229CC322 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_InitializeMotion_mDAF09889D0BB71827D81A281BA10A1F958F15E3C (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_EnsureMeshData_m4653D595BD55BA908CFFDFAD3DEACF6BE0B72142 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_SimulatePoints_mA8489D8E53EC54FB13B4818DD76F983C81B77A41 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_UpdateTubeMesh_m7148FF5B0FE9A8F8D3B9F39AB3E8CDEA8DB11AAC (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+inline VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* Component_GetComponent_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mC2DD444DE804211C8EADF53E224C7103F9A3CCD1 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffect_SetVector3_mD65A5136EEA283522C089904956C42B419382AE1 (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, String_t* ___0_name, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffect_SetFloat_mB59095AC406A373BC587551B5A4781719F608F51 (VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* __this, String_t* ___0_name, float ___1_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromToRotation_m4A801EE9080CD4CBCB9319FF12EB7934E885932F (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_toDirection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE (float* __this, String_t* ___0_format, RuntimeObject* ___1_provider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132455
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_Start_mE72396D94C6BF0D3D0805F738DDAFA96E4A53440 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:16>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0;
+		L_0 = Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9(__this, Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
+		__this->___particles = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___particles), (void*)L_0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:17>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_1 = __this->___particles;
+		NullCheck(L_1);
+		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 L_2;
+		L_2 = ParticleSystem_get_main_mD86DFCD96150E2CE760CD2F37052BB3BCA33C189(L_1, NULL);
+		__this->___mainModule = L_2;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___mainModule))->___m_ParticleSystem), (void*)NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:18>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = __this->___particles;
+		NullCheck(L_3);
+		ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2 L_4;
+		L_4 = ParticleSystem_get_shape_mD7F072CC18587858138AA7B3A882995493AA7C80(L_3, NULL);
+		__this->___shapeModule = L_4;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___shapeModule))->___m_ParticleSystem), (void*)NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:19>
+		ParticleControll_ApplySettings_m70C918A31DC4B4DB3558AC72E60CC1BD8D9B9D61(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 132456
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_ApplySettings_m70C918A31DC4B4DB3558AC72E60CC1BD8D9B9D61 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:24>
+		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* L_0 = (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9*)(&__this->___mainModule);
+		int32_t L_1 = __this->___particleCount;
+		MainModule_set_maxParticles_mF9E7A56D7E1A528904BE1A8C0E14F15C3AF0F748(L_0, L_1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:25>
+		ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2* L_2 = (ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2*)(&__this->___shapeModule);
+		float L_3 = __this->___radius;
+		ShapeModule_set_radius_m37F79E13EB60FA39EAE36B49DAC4AC880416E89C(L_2, L_3, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 132457
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_SetRadius_m4802E0C005AF6FE5FDEAD904E278B24C1067B9E5 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, float ___0_newRadius, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:30>
+		float L_0 = ___0_newRadius;
+		__this->___radius = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:31>
+		ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2* L_1 = (ShapeModule_tAA38A0C5305DF2F9D96F89D4B8F762E2D034D8B2*)(&__this->___shapeModule);
+		float L_2 = __this->___radius;
+		ShapeModule_set_radius_m37F79E13EB60FA39EAE36B49DAC4AC880416E89C(L_1, L_2, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 132458
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_SetCount_m79F8D815B94933F8FF0A503E6F136623EA2E12E9 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, int32_t ___0_newCount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:36>
+		int32_t L_0 = ___0_newCount;
+		__this->___particleCount = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:37>
+		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9* L_1 = (MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9*)(&__this->___mainModule);
+		int32_t L_2 = __this->___particleCount;
+		MainModule_set_maxParticles_mF9E7A56D7E1A528904BE1A8C0E14F15C3AF0F748(L_1, L_2, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 132459
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll_Update_mDAC9D3E5DFF83357FD302553B87F66A4F8D3F680 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 132460
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleControll__ctor_m5DA334CFB7FE7A4D0B898A1D570D2D31BBA8F495 (ParticleControll_tF163E811D95E82DBB3B45B11F0FC3E22EC1803CF* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:8>
+		__this->___particleCount = ((int32_t)200);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleControll.cs:9>
+		__this->___radius = (1.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132461
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleInteract_Start_m4593484DEF9CDC42FA96A7587D8BDA2EE4B85E43 (ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 132462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleInteract_Update_m4838D88669FBBCFD21F537B3EA53EB85865C6D75 (ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:26>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___controllerTf;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:26>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:27>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___particles;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ParticleSystem_get_particleCount_mC85541B2FA2DE2DF6824BE9423250CDC07C06076(L_4, NULL);
+		V_0 = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:28>
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_6 = __this->___particleArr;
+		if (!L_6)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_7 = __this->___particleArr;
+		NullCheck(L_7);
+		int32_t L_8 = V_0;
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length))) >= ((int32_t)L_8)))
+		{
+			goto IL_0048;
+		}
+	}
+
+IL_003c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:28>
+		int32_t L_9 = V_0;
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_10 = (ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7*)(ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7*)SZArrayNew(ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7_il2cpp_TypeInfo_var, (uint32_t)L_9);
+		__this->___particleArr = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___particleArr), (void*)L_10);
+	}
+
+IL_0048:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:30>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_11 = __this->___particles;
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_12 = __this->___particleArr;
+		int32_t L_13 = V_0;
+		NullCheck(L_11);
+		int32_t L_14;
+		L_14 = ParticleSystem_GetParticles_mFC9EA6E092E60A76445F36A5EC611E9D2B5A1761(L_11, L_12, L_13, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:31>
+		V_1 = 0;
+		goto IL_0107;
+	}
+
+IL_0062:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:32>
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_15 = __this->___particleArr;
+		int32_t L_16 = V_1;
+		NullCheck(L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Particle_get_position_m3EDB68F03D6EC0F086D6FF6F25ABE7D0E1111837(((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16))), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->___controllerTf;
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_18, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_17, L_19, NULL);
+		V_2 = L_20;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:33>
+		float L_21;
+		L_21 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_2), NULL);
+		V_3 = L_21;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:34>
+		float L_22 = V_3;
+		float L_23 = __this->___infRadius;
+		if ((!(((float)L_22) < ((float)L_23))))
+		{
+			goto IL_0103;
+		}
+	}
+	{
+		float L_24 = V_3;
+		if ((!(((float)L_24) > ((float)(0.00999999978f)))))
+		{
+			goto IL_0103;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:36>
+		float L_25 = V_3;
+		float L_26 = __this->___infRadius;
+		float L_27 = __this->___infStrenght;
+		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract((1.0f), ((float)(L_25/L_26)))), L_27));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:37>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_2), NULL);
+		V_5 = L_28;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:38>
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_29 = __this->___particleArr;
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_5;
+		float L_32 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_31, L_32, NULL);
+		Particle_set_velocity_mF4C1DE326CCABE480F44D3DF3873241E85A6303B(((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30))), L_33, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:39>
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_34 = __this->___particleArr;
+		int32_t L_35 = V_1;
+		NullCheck(L_34);
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_36 = __this->___particleArr;
+		int32_t L_37 = V_1;
+		NullCheck(L_36);
+		float L_38;
+		L_38 = Particle_get_remainingLifetime_m0677284AA2A1518AFC954CD0E8DCCE8F519055A9(((L_36)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_37))), NULL);
+		float L_39;
+		L_39 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_38, (2.0f), NULL);
+		Particle_set_remainingLifetime_m3E58D8B3599B0BA6790D43022C3DF16E6896D018(((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35))), L_39, NULL);
+	}
+
+IL_0103:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:31>
+		int32_t L_40 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_40, 1));
+	}
+
+IL_0107:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:31>
+		int32_t L_41 = V_1;
+		int32_t L_42 = V_0;
+		if ((((int32_t)L_41) < ((int32_t)L_42)))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:42>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_43 = __this->___particles;
+		ParticleU5BU5D_tE2CC7CC8844B6F592CC26DE7B533D8BC74C9BEC7* L_44 = __this->___particleArr;
+		int32_t L_45 = V_0;
+		NullCheck(L_43);
+		ParticleSystem_SetParticles_m4EDBF9B885CD31D8F491636C49F4F1235FE66592(L_43, L_44, L_45, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:43>
+		return;
+	}
+}
+// Method Definition Index: 132463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleInteract_OnDrawGizmos_m9C2836DDD078E605DE5E6C9EB1DA32F86A3AFD5E (ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:46>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___controllerTf;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:46>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:47>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		L_2 = Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_2, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:48>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___controllerTf;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		float L_5 = __this->___infRadius;
+		Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1(L_4, L_5, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 132464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleInteract__ctor_m0314A99D466CEC77041CB1A26834ECAE6B64259D (ParticleInteract_tE32D4C795DB4F0A61FAD1136C5DF69B9F87B1E85* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:12>
+		__this->___infRadius = (1.5f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/ParticleInteract.cs:13>
+		__this->___infStrenght = (100.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PaperAirplaneGlide_Start_m1E0DA5DD20D064361C2727C1E9C06E9C5371AA74 (PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m7C9BD10AE0F62A09AE091A8C0A9C51FF0F9C0BAE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:23>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
+		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		__this->____rb = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____rb), (void*)L_0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:24>
+		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_1;
+		L_1 = Component_GetComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m7C9BD10AE0F62A09AE091A8C0A9C51FF0F9C0BAE(__this, Component_GetComponent_TisGrabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3_m7C9BD10AE0F62A09AE091A8C0A9C51FF0F9C0BAE_RuntimeMethod_var);
+		__this->____grabbable = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____grabbable), (void*)L_1);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:25>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = __this->____rb;
+		NullCheck(L_2);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_2, (bool)0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:26>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->____rb;
+		NullCheck(L_3);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_3, (bool)1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 132466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PaperAirplaneGlide_Update_m99018C8EC5E0C2E5013432EE54732158EAF46DF0 (PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral97A70A846EA85E5C9C1B9D8E0AF7907D26B13B43);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:31>
+		Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3* L_0 = __this->____grabbable;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = PointableElement_get_SelectingPointsCount_mAB3FB285F9B11D8A4F4FBE85EBCA7AAC11CC98A7(L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:33>
+		bool L_2 = __this->____wasGrabbed;
+		bool L_3 = V_0;
+		if (!((int32_t)(((((int32_t)L_2) == ((int32_t)0))? 1 : 0)&(int32_t)L_3)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:35>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->____rb;
+		NullCheck(L_4);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_4, (bool)1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:36>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->____rb;
+		NullCheck(L_5);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_5, (bool)0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:37>
+		__this->____hasBeenThrown = (bool)0;
+	}
+
+IL_003b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:40>
+		bool L_6 = __this->____wasGrabbed;
+		if (!L_6)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		bool L_7 = V_0;
+		if (L_7)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:42>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->____rb;
+		NullCheck(L_8);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_8, (bool)0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:43>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = __this->____rb;
+		NullCheck(L_9);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_9, (bool)1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:44>
+		__this->____hasBeenThrown = (bool)1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:46>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:47>
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = OVRInput_GetLocalControllerVelocity_m2E8ED9F38FCB0E781C796E72917D27F65A3EFF14(2, NULL);
+		V_1 = L_10;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:48>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11;
+		L_11 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_12, L_13, NULL);
+		V_2 = L_14;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:50>
+		float L_15;
+		L_15 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_2), NULL);
+		if ((!(((float)L_15) < ((float)(0.100000001f)))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:52>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:53>
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = OVRInput_GetLocalControllerVelocity_m2E8ED9F38FCB0E781C796E72917D27F65A3EFF14(1, NULL);
+		V_1 = L_16;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:54>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17;
+		L_17 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_17, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_1;
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_18, L_19, NULL);
+		V_2 = L_20;
+	}
+
+IL_00a9:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:57>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_21 = __this->____rb;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_2;
+		float L_23 = __this->___throwForceMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, L_23, NULL);
+		NullCheck(L_21);
+		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_21, L_24, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:60>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_25 = __this->____rb;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_25);
+		Rigidbody_set_angularVelocity_m23266B4E52BF0D2E65CC984AC73CC40B8D4A27E0(L_25, L_26, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:62>
+		String_t* L_27;
+		L_27 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_2), NULL);
+		String_t* L_28;
+		L_28 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral97A70A846EA85E5C9C1B9D8E0AF7907D26B13B43, L_27, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_28, NULL);
+	}
+
+IL_00ec:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:65>
+		bool L_29 = V_0;
+		__this->____wasGrabbed = L_29;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 132467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PaperAirplaneGlide_FixedUpdate_m8C9FE6C51170F751F1AF199E3B29C61A12AE8B34 (PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:70>
+		bool L_0 = __this->____hasBeenThrown;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->____rb;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Rigidbody_get_isKinematic_mC20906CA5A89983DE06EAC6E3AFC5BC012F90CA1(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:70>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:72>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->____rb;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_3, NULL);
+		V_4 = L_4;
+		float L_5;
+		L_5 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_4), NULL);
+		V_0 = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:73>
+		float L_6 = V_0;
+		float L_7 = __this->___minGlideSpeed;
+		if ((!(((float)L_6) < ((float)L_7))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:73>
+		return;
+	}
+
+IL_0035:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:76>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->____rb;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_8, NULL);
+		V_4 = L_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
+		V_1 = L_10;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:77>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:78>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___modelForward;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_11, L_12, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
+		L_15 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline(L_13, L_14, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_16);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_16, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18;
+		L_18 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_15, L_17, NULL);
+		V_2 = L_18;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:80>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:81>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_20);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21;
+		L_21 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_20, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = V_2;
+		float L_23;
+		L_23 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		float L_24 = __this->___rotationSpeed;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
+		L_25 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline(L_21, L_22, ((float)il2cpp_codegen_multiply(L_23, L_24)), NULL);
+		NullCheck(L_19);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_19, L_25, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:84>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_26 = __this->____rb;
+		NullCheck(L_26);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_26, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_28);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_27, L_29, NULL);
+		V_4 = L_30;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
+		V_3 = L_31;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:85>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_32 = __this->____rb;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_3;
+		float L_34 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_33, L_34, NULL);
+		float L_36 = __this->___liftMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_35, L_36, NULL);
+		NullCheck(L_32);
+		Rigidbody_AddForce_m7A3EEEED21F986917107CBA6CC0106DCBC212198(L_32, L_37, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:88>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_38 = __this->____rb;
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_39 = __this->____rb;
+		NullCheck(L_39);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_39, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_40, NULL);
+		float L_42 = __this->___dragMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_41, L_42, NULL);
+		NullCheck(L_38);
+		Rigidbody_AddForce_m7A3EEEED21F986917107CBA6CC0106DCBC212198(L_38, L_43, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 132468
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PaperAirplaneGlide_OnDrawGizmos_m1AC8EC715CB8D26EB2B152ABF198EE411630B058 (PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:93>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:94>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, (0.5f), NULL);
+		Gizmos_DrawRay_m28E5C4618CB5BB572C04D7CED2DDBDD8105FA596(L_2, L_5, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:95>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
+		L_6 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_6, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:96>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, (0.5f), NULL);
+		Gizmos_DrawRay_m28E5C4618CB5BB572C04D7CED2DDBDD8105FA596(L_8, L_11, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:97>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
+		L_12 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_12, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:98>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
+		L_15 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_15, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_16, (0.5f), NULL);
+		Gizmos_DrawRay_m28E5C4618CB5BB572C04D7CED2DDBDD8105FA596(L_14, L_17, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 132469
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PaperAirplaneGlide__ctor_m3550E5049583BA4D10123D406C0A3D19EB1AF42F (PaperAirplaneGlide_t3E228F320ECEC3B4C0AA25B770DEB384346C610E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:7>
+		__this->___liftMultiplier = (0.5f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:8>
+		__this->___dragMultiplier = (0.300000012f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:9>
+		__this->___minGlideSpeed = (0.300000012f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:10>
+		__this->___throwForceMultiplier = (2.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:11>
+		__this->___rotationSpeed = (2.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Glide/AirplaneGlide.cs:14>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		__this->___modelForward = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132470
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* WaterBender_get_Hand_mA4EEB4C0E9373C7FF73F7A659F2151D9A84679B0 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:62>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___handTransform;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		return L_2;
+	}
+
+IL_0015:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___handTransform;
+		return L_3;
+	}
+}
+// Method Definition Index: 132471
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_Update_m87B9C2FBB37053473B3BEB3E9AF0F81E77B35C76 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:66>
+		int32_t L_0 = __this->___state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_001e;
+			}
+			case 1:
+			{
+				goto IL_0025;
+			}
+			case 2:
+			{
+				goto IL_002c;
+			}
+			case 3:
+			{
+				goto IL_0033;
+			}
+		}
+	}
+	{
+		return;
+	}
+
+IL_001e:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:68>
+		WaterBender_UpdateIdle_m3F52CC3084C7DFF3E707F7F2830D34412FB455C0(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:68>
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:69>
+		WaterBender_UpdateReaching_m0045393597FF78E66DA7A68EA71EA443E199DDF6(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:69>
+		return;
+	}
+
+IL_002c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:70>
+		WaterBender_UpdateHeld_m73A10FF2B553E10316F94E1EBB65AED3298DBD86(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:70>
+		return;
+	}
+
+IL_0033:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:71>
+		WaterBender_UpdateFalling_m60ACF8C4501C822E59DF8D6FDE8CDD11A04AA2FD(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 132472
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaterBender_IsGripping_m28028D666F9C735EF1B0AAA78040D07D43924CD2 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:77>
+		int32_t L_0 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		float L_1;
+		L_1 = OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8(4, L_0, NULL);
+		float L_2 = __this->___gripThreshold;
+		return (bool)((((float)L_1) > ((float)L_2))? 1 : 0);
+	}
+}
+// Method Definition Index: 132473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateIdle_m3F52CC3084C7DFF3E707F7F2830D34412FB455C0 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:83>
+		bool L_0;
+		L_0 = WaterBender_IsGripping_m28028D666F9C735EF1B0AAA78040D07D43924CD2(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:83>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:84>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_1 = __this->___water;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:84>
+		return;
+	}
+
+IL_0018:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:87>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = WaterBender_get_Hand_mA4EEB4C0E9373C7FF73F7A659F2151D9A84679B0(__this, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:88>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		float L_6 = L_5.___x;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_7 = __this->___water;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		float L_10 = L_9.___z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_6, L_8, L_10, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:91>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:92>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:93>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		float L_12 = L_11.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		float L_14 = L_13.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_15), L_12, (0.0f), L_14, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
+		float L_17 = L_16.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_20), L_17, (0.0f), L_19, NULL);
+		float L_21;
+		L_21 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_15, L_20, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:94>
+		float L_22 = __this->___maxLiftDistance;
+		if ((!(((float)L_21) > ((float)L_22))))
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:94>
+		return;
+	}
+
+IL_007c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:95>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		float L_24 = L_23.___y;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_25 = __this->___water;
+		NullCheck(L_25);
+		float L_26;
+		L_26 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_25, NULL);
+		if ((!(((float)L_24) < ((float)L_26))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:95>
+		return;
+	}
+
+IL_0090:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:98>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_1;
+		__this->___liftSourceWorldXZ = L_27;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:99>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_1;
+		WaterBender_SpawnBlob_mEA0EB2EB415A3F19D89128B57AF0CAFA1DDF06A2(__this, L_28, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:100>
+		__this->___state = 1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:101>
+		return;
+	}
+}
+// Method Definition Index: 132474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateReaching_m0045393597FF78E66DA7A68EA71EA443E199DDF6 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:106>
+		bool L_0;
+		L_0 = WaterBender_IsGripping_m28028D666F9C735EF1B0AAA78040D07D43924CD2(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:106>
+		WaterBender_ReleaseBlob_m5C81F9716298E3AB72B43411DFCE31E84237895C(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:106>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:108>
+		WaterBender_StampDepression_mD532338657A31AE48F22892A421A1D2CCF493E1A(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:111>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = WaterBender_get_Hand_mA4EEB4C0E9373C7FF73F7A659F2151D9A84679B0(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		V_0 = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:112>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:113>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___blobInstance;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___blobInstance;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
+		float L_9 = __this->___liftSpeed;
+		float L_10;
+		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_7, L_8, ((float)il2cpp_codegen_multiply(L_9, L_10)), NULL);
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_11, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:116>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___blobInstance;
+		NullCheck(L_12);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_12, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		float L_15 = L_14.___y;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_16 = __this->___water;
+		NullCheck(L_16);
+		float L_17;
+		L_17 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_16, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:117>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
+		float L_19 = L_18.___y;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_20 = __this->___water;
+		NullCheck(L_20);
+		float L_21;
+		L_21 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_20, NULL);
+		float L_22;
+		L_22 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00999999978f), ((float)il2cpp_codegen_subtract(L_19, L_21)), NULL);
+		V_1 = L_22;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:118>
+		float L_23 = V_1;
+		float L_24;
+		L_24 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_15, L_17))/L_23)), NULL);
+		V_2 = L_24;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:119>
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_25 = __this->___blobScript;
+		float L_26 = V_2;
+		NullCheck(L_25);
+		WaterBlob_SetGrowth_m6533FB6083A1F3E4A2EE3C46591B86B461AC0031(L_25, L_26, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:122>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___blobInstance;
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
+		NullCheck(L_28);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_0;
+		float L_31;
+		L_31 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_29, L_30, NULL);
+		if ((!(((float)L_31) < ((float)(0.0199999996f)))))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:124>
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_32 = __this->___blobScript;
+		NullCheck(L_32);
+		WaterBlob_SetGrowth_m6533FB6083A1F3E4A2EE3C46591B86B461AC0031(L_32, (1.0f), NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:125>
+		__this->___state = 2;
+	}
+
+IL_00d9:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:127>
+		return;
+	}
+}
+// Method Definition Index: 132475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateHeld_m73A10FF2B553E10316F94E1EBB65AED3298DBD86 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:132>
+		bool L_0;
+		L_0 = WaterBender_IsGripping_m28028D666F9C735EF1B0AAA78040D07D43924CD2(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:132>
+		WaterBender_ReleaseBlob_m5C81F9716298E3AB72B43411DFCE31E84237895C(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:132>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:134>
+		WaterBender_StampDepression_mD532338657A31AE48F22892A421A1D2CCF493E1A(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:137>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = WaterBender_get_Hand_mA4EEB4C0E9373C7FF73F7A659F2151D9A84679B0(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		V_0 = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:138>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:139>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___blobInstance;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___blobInstance;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
+		float L_9;
+		L_9 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_10;
+		L_10 = expf(((float)il2cpp_codegen_multiply((-20.0f), L_9)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_7, L_8, ((float)il2cpp_codegen_subtract((1.0f), L_10)), NULL);
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_11, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:141>
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_12 = __this->___blobScript;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		NullCheck(L_12);
+		WaterBlob_SetMotion_m669FF897EA953BEAEF888BF822A0304F0AC3A5ED(L_12, L_13, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:142>
+		return;
+	}
+}
+// Method Definition Index: 132476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_UpdateFalling_m60ACF8C4501C822E59DF8D6FDE8CDD11A04AA2FD (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:147>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___blobInstance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:147>
+		__this->___state = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:147>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:149>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___fallVelocity);
+		float* L_3 = (float*)(&L_2->___y);
+		float* L_4 = L_3;
+		float L_5 = *((float*)L_4);
+		float L_6 = __this->___releaseGravity;
+		float L_7;
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		*((float*)L_4) = (float)((float)il2cpp_codegen_subtract(L_5, ((float)il2cpp_codegen_multiply(L_6, L_7))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:150>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___blobInstance;
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = L_9;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = __this->___fallVelocity;
+		float L_13;
+		L_13 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, L_13, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_11, L_14, NULL);
+		NullCheck(L_10);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_15, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:153>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___blobInstance;
+		NullCheck(L_16);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_16, NULL);
+		NullCheck(L_17);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
+		V_0 = L_18;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:154>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_19 = __this->___water;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
+		NullCheck(L_19);
+		float L_21;
+		L_21 = WaterSimulation_GetWaterSurfaceY_mB022F12EDACCA54A1320DC60A4029C530A4B3D43(L_19, L_20, NULL);
+		V_1 = L_21;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:155>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
+		float L_23 = L_22.___y;
+		float L_24 = V_1;
+		if ((!(((float)L_23) <= ((float)L_24))))
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:157>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_25 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___fallVelocity);
+		float L_26 = L_25->___y;
+		float L_27;
+		L_27 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((-L_26))/(5.0f))), NULL);
+		V_2 = L_27;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:158>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_28 = __this->___water;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_0;
+		float L_30 = __this->___impactSplashStrength;
+		float L_31 = V_2;
+		float L_32 = __this->___impactSplashRadius;
+		NullCheck(L_28);
+		WaterSimulation_Splash_m27866B80FC65F6323393BD1EC5493A4E1AE19B66(L_28, L_29, ((float)il2cpp_codegen_multiply(L_30, ((float)il2cpp_codegen_add((0.5f), ((float)il2cpp_codegen_multiply((0.5f), L_31)))))), L_32, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:159>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___blobInstance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_33, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:160>
+		__this->___blobInstance = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobInstance), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:161>
+		__this->___blobScript = (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobScript), (void*)(WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE*)NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:162>
+		__this->___state = 0;
+	}
+
+IL_00e1:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:164>
+		return;
+	}
+}
+// Method Definition Index: 132477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_StampDepression_mD532338657A31AE48F22892A421A1D2CCF493E1A (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:168>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_1 = __this->___lastDepressionTime;
+		float L_2 = __this->___depressionInterval;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_0, L_1))) < ((float)L_2))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:168>
+		return;
+	}
+
+IL_0015:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:169>
+		float L_3;
+		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___lastDepressionTime = L_3;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:170>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_4 = __this->___water;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___liftSourceWorldXZ;
+		float L_6 = __this->___depressionStrength;
+		float L_7 = __this->___depressionRadius;
+		NullCheck(L_4);
+		WaterSimulation_Depress_mF029146A00C90F8D19F2F17F95074D90FC3A1660(L_4, L_5, L_6, L_7, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:171>
+		return;
+	}
+}
+// Method Definition Index: 132478
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_SpawnBlob_mEA0EB2EB415A3F19D89128B57AF0CAFA1DDF06A2 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_atSurface, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_mB00AD492814D9BBF0688370C0C398EF9AF05CF1F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_m833827489977BA9E82E42A2B2640DC6A2E77D775_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8450C6B1DD1E39B0EE1CE716C3CC2057E62E6E52);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:175>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___waterBlobPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:177>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8450C6B1DD1E39B0EE1CE716C3CC2057E62E6E52, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:178>
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:181>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___waterBlobPrefab;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_atSurface;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_2, L_3, L_4, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		__this->___blobInstance = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobInstance), (void*)L_5);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:182>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___blobInstance;
+		NullCheck(L_6);
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_7;
+		L_7 = GameObject_GetComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_m833827489977BA9E82E42A2B2640DC6A2E77D775(L_6, GameObject_GetComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_m833827489977BA9E82E42A2B2640DC6A2E77D775_RuntimeMethod_var);
+		__this->___blobScript = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobScript), (void*)L_7);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:183>
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_8 = __this->___blobScript;
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:183>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___blobInstance;
+		NullCheck(L_10);
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_11;
+		L_11 = GameObject_AddComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_mB00AD492814D9BBF0688370C0C398EF9AF05CF1F(L_10, GameObject_AddComponent_TisWaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE_mB00AD492814D9BBF0688370C0C398EF9AF05CF1F_RuntimeMethod_var);
+		__this->___blobScript = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobScript), (void*)L_11);
+	}
+
+IL_0060:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:184>
+		WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* L_12 = __this->___blobScript;
+		NullCheck(L_12);
+		WaterBlob_SetGrowth_m6533FB6083A1F3E4A2EE3C46591B86B461AC0031(L_12, (0.0f), NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:185>
+		return;
+	}
+}
+// Method Definition Index: 132479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender_ReleaseBlob_m5C81F9716298E3AB72B43411DFCE31E84237895C (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:189>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___blobInstance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:189>
+		__this->___state = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:189>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:192>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___fallVelocity = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:193>
+		__this->___state = 3;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 132480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBender__ctor_mAF67B36202BF0030601E39117E72DC818429BC22 (WaterBender_t4460CF892B144B8F01770E0E49C5B4F7DE40AAF1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:31>
+		__this->___controller = 2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:33>
+		__this->___gripThreshold = (0.5f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:37>
+		__this->___maxLiftDistance = (1.5f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:39>
+		__this->___liftSpeed = (4.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:41>
+		__this->___depressionStrength = (0.0500000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:43>
+		__this->___depressionRadius = (0.0599999987f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:45>
+		__this->___depressionInterval = (0.0500000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:48>
+		__this->___releaseGravity = (9.81000042f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:50>
+		__this->___impactSplashStrength = (0.800000012f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBender.cs:51>
+		__this->___impactSplashRadius = (0.0599999987f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_Start_mBCBC47F8CBADE72C80CD3EA2899D3118177C5247 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:29>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		__this->___lastTrackedPos = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:30>
+		WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 132482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_SetGrowth_m6533FB6083A1F3E4A2EE3C46591B86B461AC0031 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, float ___0_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:36>
+		float L_0 = ___0_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		__this->___growth = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:37>
+		WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 132483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_SetMotion_m669FF897EA953BEAEF888BF822A0304F0AC3A5ED (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_trackedPos, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:43>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_trackedPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___lastTrackedPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_1, NULL);
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_4;
+		L_4 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_3, (9.99999975E-06f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_2, L_4, NULL);
+		V_0 = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:44>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = __this->___lastVelocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_6, L_7, NULL);
+		float L_9;
+		L_9 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_10;
+		L_10 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_9, (9.99999975E-06f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_8, L_10, NULL);
+		V_1 = L_11;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:47>
+		float L_12;
+		L_12 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_1), NULL);
+		if ((((float)L_12) > ((float)(9.99999975E-05f))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		G_B3_0 = L_13;
+		goto IL_005e;
+	}
+
+IL_0057:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		G_B3_0 = L_14;
+	}
+
+IL_005e:
+	{
+		V_2 = G_B3_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:48>
+		float L_15;
+		L_15 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
+		float L_16 = __this->___wobbleStrength;
+		float L_17;
+		L_17 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_15, L_16)), (0.0500000007f))), NULL);
+		V_3 = L_17;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:51>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:52>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:53>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_2;
+		float L_20 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_19, L_20, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_18, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_2;
+		float L_24 = L_23.___y;
+		float L_25;
+		L_25 = fabsf(L_24);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_2;
+		float L_27 = L_26.___z;
+		float L_28;
+		L_28 = fabsf(L_27);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_2;
+		float L_30 = L_29.___x;
+		float L_31;
+		L_31 = fabsf(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_2;
+		float L_33 = L_32.___z;
+		float L_34;
+		L_34 = fabsf(L_33);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_2;
+		float L_36 = L_35.___x;
+		float L_37;
+		L_37 = fabsf(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_2;
+		float L_39 = L_38.___y;
+		float L_40;
+		L_40 = fabsf(L_39);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_41), ((float)il2cpp_codegen_add(L_25, L_28)), ((float)il2cpp_codegen_add(L_31, L_34)), ((float)il2cpp_codegen_add(L_37, L_40)), NULL);
+		float L_42 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_41, L_42, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_43, (0.5f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+		L_45 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_22, L_44, NULL);
+		V_4 = L_45;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:55>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = __this->___currentSquash;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_4;
+		float L_48 = __this->___wobbleDamping;
+		float L_49;
+		L_49 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_50;
+		L_50 = expf(((float)il2cpp_codegen_multiply(((-L_48)), L_49)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_46, L_47, ((float)il2cpp_codegen_subtract((1.0f), L_50)), NULL);
+		__this->___currentSquash = L_51;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:57>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_0;
+		__this->___lastVelocity = L_52;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:58>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = ___0_trackedPos;
+		__this->___lastTrackedPos = L_53;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:60>
+		WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 132484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_Update_mCF1BCFC9D920CD5212643719EBBACDDC9F38F281 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:66>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___currentSquash;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_2 = __this->___wobbleDamping;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_4;
+		L_4 = expf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((-L_2)), (0.5f))), L_3)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_0, L_1, ((float)il2cpp_codegen_subtract((1.0f), L_4)), NULL);
+		__this->___currentSquash = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:67>
+		WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 132485
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob_ApplyScale_mC82B5502D1B28F8A6CB6B0584F61CA76DF6764C5 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:73>
+		float L_0 = __this->___fullRadius;
+		float L_1 = __this->___growth;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, (2.0f))), L_1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:74>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:75>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:76>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:77>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_3 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currentSquash);
+		float L_5 = L_4->___x;
+		float L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currentSquash);
+		float L_8 = L_7->___y;
+		float L_9 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currentSquash);
+		float L_11 = L_10->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_multiply(L_3, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_8)), ((float)il2cpp_codegen_multiply(L_9, L_11)), NULL);
+		NullCheck(L_2);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_2, L_12, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 132486
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlob__ctor_mDEAAB94492C618F6AC1471A5CDA8316ABCB5C221 (WaterBlob_tA9A4CC7746C4A5F7B02AD32FAACA2AB1C10CB6AE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:14>
+		__this->___fullRadius = (0.0799999982f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:18>
+		__this->___wobbleStrength = (0.0500000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:20>
+		__this->___wobbleDamping = (8.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterBlob.cs:25>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		__this->___currentSquash = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterInteractor_Start_m0D2F4B9285CF3413366B6CCC0C9FF12D013CD77C (WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* G_B2_0 = NULL;
+	WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* G_B3_1 = NULL;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:37>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		__this->___lastPos = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:38>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_2 = __this->___water;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			G_B2_0 = __this;
+			goto IL_003f;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6 = L_5.___y;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_7 = __this->___water;
+		NullCheck(L_7);
+		float L_8;
+		L_8 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_7, NULL);
+		G_B3_0 = ((((float)L_6) < ((float)L_8))? 1 : 0);
+		G_B3_1 = G_B1_0;
+		goto IL_0040;
+	}
+
+IL_003f:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0040:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___wasUnderwater = (bool)G_B3_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 132488
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterInteractor_Update_m05D225F9823CB1AC382E6E8EACD50EDCF28AC4A3 (WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:43>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_0 = __this->___water;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:43>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:45>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:46>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___lastPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_5, NULL);
+		float L_7;
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_8;
+		L_8 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_7, (9.99999975E-06f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_6, L_8, NULL);
+		V_1 = L_9;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:48>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		float L_11 = L_10.___y;
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_12 = __this->___water;
+		NullCheck(L_12);
+		float L_13;
+		L_13 = WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9(L_12, NULL);
+		V_2 = (bool)((((float)L_11) < ((float)L_13))? 1 : 0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:51>
+		bool L_14 = V_2;
+		if (!L_14)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		bool L_15 = __this->___wasUnderwater;
+		if (L_15)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:54>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
+		float L_17 = L_16.___y;
+		float L_18;
+		L_18 = fabsf(L_17);
+		float L_19;
+		L_19 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_18/(3.0f))), NULL);
+		V_3 = L_19;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:55>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_20 = __this->___water;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_0;
+		float L_22 = __this->___entrySplashStrength;
+		float L_23 = V_3;
+		float L_24 = __this->___entrySplashRadius;
+		NullCheck(L_20);
+		WaterSimulation_Splash_m27866B80FC65F6323393BD1EC5493A4E1AE19B66(L_20, L_21, ((float)il2cpp_codegen_multiply(L_22, ((float)il2cpp_codegen_add((0.300000012f), ((float)il2cpp_codegen_multiply((0.699999988f), L_23)))))), L_24, NULL);
+	}
+
+IL_0098:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:59>
+		bool L_25 = V_2;
+		if (!L_25)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		float L_26;
+		L_26 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
+		float L_27 = __this->___minVelocityForSplash;
+		if ((!(((float)L_26) > ((float)L_27))))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:61>
+		float L_28;
+		L_28 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_29 = __this->___lastTrailSplashTime;
+		float L_30 = __this->___trailSplashInterval;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_28, L_29))) >= ((float)L_30))))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:63>
+		float L_31;
+		L_31 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_1), NULL);
+		float L_32;
+		L_32 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_31/(3.0f))), NULL);
+		V_4 = L_32;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:64>
+		WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* L_33 = __this->___water;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_0;
+		float L_35 = __this->___trailSplashStrength;
+		float L_36 = V_4;
+		float L_37 = __this->___trailSplashRadius;
+		NullCheck(L_33);
+		WaterSimulation_Splash_m27866B80FC65F6323393BD1EC5493A4E1AE19B66(L_33, L_34, ((float)il2cpp_codegen_multiply(L_35, L_36)), L_37, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:65>
+		float L_38;
+		L_38 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___lastTrailSplashTime = L_38;
+	}
+
+IL_00f8:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:69>
+		bool L_39 = V_2;
+		__this->___wasUnderwater = L_39;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:70>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_0;
+		__this->___lastPos = L_40;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 132489
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterInteractor__ctor_m2D951AC5508C8D6E0267EBF0277B10A77EED4655 (WaterInteractor_tFE4256A63726BA857CE601F7C01A3AB246A59E76* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:20>
+		__this->___entrySplashStrength = (0.600000024f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:21>
+		__this->___trailSplashStrength = (0.150000006f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:22>
+		__this->___entrySplashRadius = (0.0450000018f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:23>
+		__this->___trailSplashRadius = (0.0250000004f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:27>
+		__this->___minVelocityForSplash = (0.150000006f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterInteractor.cs:29>
+		__this->___trailSplashInterval = (0.0500000007f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132490
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterMeshGenerator_Awake_m420E5FC917391E62C81F0D747CF4F535661962B4 (WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:29>
+		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_0;
+		L_0 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1;
+		L_1 = WaterMeshGenerator_BuildPlaneMesh_m9739F7C4BA46EBAF85218D863C8062802BE301EE(__this, NULL);
+		NullCheck(L_0);
+		MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_0, L_1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 132491
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* WaterMeshGenerator_BuildPlaneMesh_m9739F7C4BA46EBAF85218D863C8062802BE301EE (WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38C93032F5CD8B30B1813FBF96243208F6B0DF4F);
+		s_Il2CppMethodInitialized = true;
+	}
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_3 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_4 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:34>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:35>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:36>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:37>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:38>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:39>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_0, NULL);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = L_0;
+		NullCheck(L_1);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_1, _stringLiteral38C93032F5CD8B30B1813FBF96243208F6B0DF4F, NULL);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = L_1;
+		NullCheck(L_2);
+		Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4(L_2, 1, NULL);
+		V_0 = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:41>
+		int32_t L_3 = __this->___subdivisions;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_3, 1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:42>
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:43>
+		int32_t L_6 = __this->___subdivisions;
+		int32_t L_7 = __this->___subdivisions;
+		V_2 = ((int32_t)il2cpp_codegen_multiply(L_6, L_7));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:45>
+		int32_t L_8 = ((int32_t)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_9 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_8);
+		V_3 = L_9;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:46>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_10 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_8);
+		V_4 = L_10;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:47>
+		int32_t L_11 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_11, 6)));
+		V_5 = L_12;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:51>
+		V_7 = 0;
+		goto IL_00ca;
+	}
+
+IL_004f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:53>
+		V_8 = 0;
+		goto IL_00bf;
+	}
+
+IL_0054:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:55>
+		int32_t L_13 = V_7;
+		int32_t L_14 = V_1;
+		int32_t L_15 = V_8;
+		V_9 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_13, L_14)), L_15));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:56>
+		int32_t L_16 = V_8;
+		int32_t L_17 = __this->___subdivisions;
+		V_10 = ((float)(((float)L_16)/((float)L_17)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:57>
+		int32_t L_18 = V_7;
+		int32_t L_19 = __this->___subdivisions;
+		V_11 = ((float)(((float)L_18)/((float)L_19)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:58>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_20 = V_3;
+		int32_t L_21 = V_9;
+		float L_22 = V_10;
+		float L_23 = __this->___size;
+		float L_24 = V_11;
+		float L_25 = __this->___size;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_26), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_22, (0.5f))), L_23)), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_24, (0.5f))), L_25)), NULL);
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(L_21), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_26);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:59>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_27 = V_4;
+		int32_t L_28 = V_9;
+		float L_29 = V_10;
+		float L_30 = V_11;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_31), L_29, L_30, NULL);
+		NullCheck(L_27);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(L_28), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_31);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:53>
+		int32_t L_32 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+	}
+
+IL_00bf:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:53>
+		int32_t L_33 = V_8;
+		int32_t L_34 = V_1;
+		if ((((int32_t)L_33) < ((int32_t)L_34)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:51>
+		int32_t L_35 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ca:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:51>
+		int32_t L_36 = V_7;
+		int32_t L_37 = V_1;
+		if ((((int32_t)L_36) < ((int32_t)L_37)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:65>
+		V_6 = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:66>
+		V_12 = 0;
+		goto IL_014f;
+	}
+
+IL_00d7:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:68>
+		V_13 = 0;
+		goto IL_013f;
+	}
+
+IL_00dc:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:70>
+		int32_t L_38 = V_12;
+		int32_t L_39 = V_1;
+		int32_t L_40 = V_13;
+		V_14 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_38, L_39)), L_40));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:71>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = V_5;
+		int32_t L_42 = V_6;
+		int32_t L_43 = L_42;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_43, 1));
+		int32_t L_44 = V_14;
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(L_43), (int32_t)L_44);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:72>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_45 = V_5;
+		int32_t L_46 = V_6;
+		int32_t L_47 = L_46;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_47, 1));
+		int32_t L_48 = V_14;
+		int32_t L_49 = V_1;
+		NullCheck(L_45);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(L_47), (int32_t)((int32_t)il2cpp_codegen_add(L_48, L_49)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:73>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_50 = V_5;
+		int32_t L_51 = V_6;
+		int32_t L_52 = L_51;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+		int32_t L_53 = V_14;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_52), (int32_t)((int32_t)il2cpp_codegen_add(L_53, 1)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:75>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = V_5;
+		int32_t L_55 = V_6;
+		int32_t L_56 = L_55;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+		int32_t L_57 = V_14;
+		NullCheck(L_54);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(L_56), (int32_t)((int32_t)il2cpp_codegen_add(L_57, 1)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:76>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_58 = V_5;
+		int32_t L_59 = V_6;
+		int32_t L_60 = L_59;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_60, 1));
+		int32_t L_61 = V_14;
+		int32_t L_62 = V_1;
+		NullCheck(L_58);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(L_60), (int32_t)((int32_t)il2cpp_codegen_add(L_61, L_62)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:77>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_63 = V_5;
+		int32_t L_64 = V_6;
+		int32_t L_65 = L_64;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_65, 1));
+		int32_t L_66 = V_14;
+		int32_t L_67 = V_1;
+		NullCheck(L_63);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(L_65), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_66, L_67)), 1)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:68>
+		int32_t L_68 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_68, 1));
+	}
+
+IL_013f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:68>
+		int32_t L_69 = V_13;
+		int32_t L_70 = __this->___subdivisions;
+		if ((((int32_t)L_69) < ((int32_t)L_70)))
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:66>
+		int32_t L_71 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_71, 1));
+	}
+
+IL_014f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:66>
+		int32_t L_72 = V_12;
+		int32_t L_73 = __this->___subdivisions;
+		if ((((int32_t)L_72) < ((int32_t)L_73)))
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:81>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_74 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_75 = V_3;
+		NullCheck(L_74);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_74, L_75, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:82>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_76 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_77 = V_4;
+		NullCheck(L_76);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_76, L_77, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:83>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_78 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_79 = V_5;
+		NullCheck(L_78);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_78, L_79, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:86>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_80 = V_0;
+		NullCheck(L_80);
+		Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_80, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:89>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:90>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:91>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_81 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
+		L_82 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		float L_83 = __this->___size;
+		float L_84 = __this->___boundsHeightPadding;
+		float L_85 = __this->___size;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86;
+		memset((&L_86), 0, sizeof(L_86));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_86), ((float)il2cpp_codegen_multiply(L_83, (1.10000002f))), ((float)il2cpp_codegen_multiply(L_84, (2.0f))), ((float)il2cpp_codegen_multiply(L_85, (1.10000002f))), NULL);
+		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_87;
+		memset((&L_87), 0, sizeof(L_87));
+		Bounds__ctor_mAF7B238B9FBF90C495E5D7951760085A93119C5A_inline((&L_87), L_82, L_86, NULL);
+		NullCheck(L_81);
+		Mesh_set_bounds_m2E526E9B61ACA77D644C22A9D8EB49583012B54E(L_81, L_87, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:93>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_88 = V_0;
+		return L_88;
+	}
+}
+// Method Definition Index: 132492
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterMeshGenerator__ctor_mA97FB1012A163D2BB5B3285DA56385DC068E09BA (WaterMeshGenerator_tB8090C6336767B7A8946B126CB1FB6E1E190900D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:19>
+		__this->___size = (10.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:22>
+		__this->___subdivisions = ((int32_t)128);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterMeshGenerator.cs:25>
+		__this->___boundsHeightPadding = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132493
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:42>
+		int32_t L_0 = __this->___writeIdx;
+		return ((int32_t)il2cpp_codegen_subtract(1, L_0));
+	}
+}
+// Method Definition Index: 132494
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Awake_mF10FB98ECEDB567836848AB1DCECFB7FA66FFF1E (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral20CB71FE69618E7CA164F27008333DEFC21C24B1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4CFC94AF0F63AC5119808522DECC077265AFBE21);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA9119F365AF22122C44D4DC8EFF6A0227FB2D13);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3C3994CA05814950169C0E159FF9829A7ECD820);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:64>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_0;
+		L_0 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
+		__this->___meshRenderer = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___meshRenderer), (void*)L_0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:65>
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
+		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_1, NULL);
+		__this->___mpb = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mpb), (void*)L_1);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:67>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_2 = __this->___waveCompute;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:69>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralDA9119F365AF22122C44D4DC8EFF6A0227FB2D13, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:70>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:71>
+		return;
+	}
+
+IL_0037:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:74>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_4 = __this->___waveCompute;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = ComputeShader_FindKernel_m3BA5C50794FA6AF4C432E55FBBD7CB266532F659(L_4, _stringLiteralE3C3994CA05814950169C0E159FF9829A7ECD820, NULL);
+		__this->___kStep = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:75>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_6 = __this->___waveCompute;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = ComputeShader_FindKernel_m3BA5C50794FA6AF4C432E55FBBD7CB266532F659(L_6, _stringLiteral20CB71FE69618E7CA164F27008333DEFC21C24B1, NULL);
+		__this->___kSplash = L_7;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:76>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_8 = __this->___waveCompute;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = ComputeShader_FindKernel_m3BA5C50794FA6AF4C432E55FBBD7CB266532F659(L_8, _stringLiteral4CFC94AF0F63AC5119808522DECC077265AFBE21, NULL);
+		__this->___kClear = L_9;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:78>
+		WaterSimulation_AllocateTextures_m251048E1E5F6694739A5CD9F1C5369509AD2833F(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:79>
+		WaterSimulation_ClearTextures_mBA8008D4F0E9CA67ABD80FCF7BB1285422857C35(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:80>
+		WaterSimulation_BindTextureToMaterial_m10C3C229EAA49463BA9C19C63CB2F99F4D9138C1(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:82>
+		int32_t L_10 = __this->___resolution;
+		int32_t L_11 = __this->___resolution;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_12 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_10, L_11)));
+		__this->___heightCache = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___heightCache), (void*)L_12);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:83>
+		return;
+	}
+}
+// Method Definition Index: 132495
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_OnDestroy_m092881B6B28B4A779E5EE8B0DC11D2530B55EF92 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:85>
+		WaterSimulation_ReleaseTextures_m2B3761443A7B3566C6B290F3E653533B44AE5440(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 132496
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_AllocateTextures_m251048E1E5F6694739A5CD9F1C5369509AD2833F (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF8B84ABCCB5B0A01E1E53A5CB343B016265670DD);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:89>
+		V_0 = 0;
+		goto IL_006b;
+	}
+
+IL_0004:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:91>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:92>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:93>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:94>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:95>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:96>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:97>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:98>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:99>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_0 = __this->___heightTex;
+		int32_t L_1 = V_0;
+		int32_t L_2 = __this->___resolution;
+		int32_t L_3 = __this->___resolution;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		RenderTexture__ctor_m0C81127DE754F64FDD3E80E94BE11054B2791F98(L_4, L_2, L_3, 0, ((int32_t)46), NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = L_4;
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF8B84ABCCB5B0A01E1E53A5CB343B016265670DD, L_8, NULL);
+		NullCheck(L_5);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_5, L_9, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = L_5;
+		NullCheck(L_10);
+		RenderTexture_set_enableRandomWrite_m1F1B5E033802C193449803411560DB4D5D4AEEAB(L_10, (bool)1, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = L_10;
+		NullCheck(L_11);
+		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_11, 1, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_12 = L_11;
+		NullCheck(L_12);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_12, 1, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = L_12;
+		NullCheck(L_13);
+		RenderTexture_set_useMipMap_mB280A39DAB18372D3A0050FF20F730E5B0B44C32(L_13, (bool)0, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = L_13;
+		NullCheck(L_14);
+		RenderTexture_set_autoGenerateMips_mDEFAC13954D315DE52B35B34577218D3AD4897A9(L_14, (bool)0, NULL);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_14);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(L_1), (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)L_14);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:100>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_15 = __this->___heightTex;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = RenderTexture_Create_mA6E4D3CCC84AC3F68E85AA0D6609E1692C672AD2(L_18, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:89>
+		int32_t L_20 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_006b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:89>
+		int32_t L_21 = V_0;
+		if ((((int32_t)L_21) < ((int32_t)2)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 132497
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_ReleaseTextures_m2B3761443A7B3566C6B290F3E653533B44AE5440 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:106>
+		V_0 = 0;
+		goto IL_003b;
+	}
+
+IL_0004:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:108>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_0 = __this->___heightTex;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:110>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_5 = __this->___heightTex;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E(L_8, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:111>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_9 = __this->___heightTex;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_12, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:112>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_13 = __this->___heightTex;
+		int32_t L_14 = V_0;
+		NullCheck(L_13);
+		ArrayElementTypeCheck (L_13, NULL);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL);
+	}
+
+IL_0037:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:106>
+		int32_t L_15 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_003b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:106>
+		int32_t L_16 = V_0;
+		if ((((int32_t)L_16) < ((int32_t)2)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:115>
+		return;
+	}
+}
+// Method Definition Index: 132498
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_ClearTextures_mBA8008D4F0E9CA67ABD80FCF7BB1285422857C35 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:119>
+		int32_t L_0 = __this->___resolution;
+		int32_t L_1;
+		L_1 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)L_0)/(8.0f))), NULL);
+		V_0 = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:120>
+		V_1 = 0;
+		goto IL_0063;
+	}
+
+IL_0017:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:122>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_2 = __this->___waveCompute;
+		int32_t L_3 = __this->___kClear;
+		il2cpp_codegen_runtime_class_init_inline(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Output;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_5 = __this->___heightTex;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_2);
+		ComputeShader_SetTexture_mA3F2EEE36DB76DD197EC7910B859854A63186AC3(L_2, L_3, L_4, L_8, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:123>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_9 = __this->___waveCompute;
+		int32_t L_10 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Resolution;
+		int32_t L_11 = __this->___resolution;
+		NullCheck(L_9);
+		ComputeShader_SetInt_m5BED46962875818A120FA6D2E4FD820B62BCE8AD(L_9, L_10, L_11, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:124>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_12 = __this->___waveCompute;
+		int32_t L_13 = __this->___kClear;
+		int32_t L_14 = V_0;
+		int32_t L_15 = V_0;
+		NullCheck(L_12);
+		ComputeShader_Dispatch_mEED7BA68C28B1B39E75208D0D4D9915D41985B0A(L_12, L_13, L_14, L_15, 1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:120>
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0063:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:120>
+		int32_t L_17 = V_1;
+		if ((((int32_t)L_17) < ((int32_t)2)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:126>
+		__this->___writeIdx = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:127>
+		return;
+	}
+}
+// Method Definition Index: 132499
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Update_mC658678BC13F6A6F949D1FC5A1A7473D6F4F52FE (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:131>
+		V_0 = 0;
+		goto IL_000e;
+	}
+
+IL_0004:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:131>
+		WaterSimulation_Step_mFC11DB63A6446342B0D85D471BF1B3C699D86A1E(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:131>
+		int32_t L_0 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+
+IL_000e:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:131>
+		int32_t L_1 = V_0;
+		int32_t L_2 = __this->___stepsPerFrame;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:132>
+		WaterSimulation_BindTextureToMaterial_m10C3C229EAA49463BA9C19C63CB2F99F4D9138C1(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:133>
+		bool L_3 = __this->___enableReadback;
+		if (!L_3)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:133>
+		WaterSimulation_RequestReadback_mA83C60113BEE28EA709D8DAB4C8F621664708876(__this, NULL);
+	}
+
+IL_002b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:134>
+		return;
+	}
+}
+// Method Definition Index: 132500
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Step_mFC11DB63A6446342B0D85D471BF1B3C699D86A1E (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:138>
+		int32_t L_0;
+		L_0 = WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF(__this, NULL);
+		V_0 = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:139>
+		int32_t L_1 = __this->___writeIdx;
+		V_1 = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:141>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_2 = __this->___waveCompute;
+		int32_t L_3 = __this->___kStep;
+		il2cpp_codegen_runtime_class_init_inline(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Input;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_5 = __this->___heightTex;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_2);
+		ComputeShader_SetTexture_mA3F2EEE36DB76DD197EC7910B859854A63186AC3(L_2, L_3, L_4, L_8, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:142>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_9 = __this->___waveCompute;
+		int32_t L_10 = __this->___kStep;
+		int32_t L_11 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Output;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_12 = __this->___heightTex;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck(L_9);
+		ComputeShader_SetTexture_mA3F2EEE36DB76DD197EC7910B859854A63186AC3(L_9, L_10, L_11, L_15, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:143>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_16 = __this->___waveCompute;
+		int32_t L_17 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Resolution;
+		int32_t L_18 = __this->___resolution;
+		NullCheck(L_16);
+		ComputeShader_SetInt_m5BED46962875818A120FA6D2E4FD820B62BCE8AD(L_16, L_17, L_18, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:144>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_19 = __this->___waveCompute;
+		int32_t L_20 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Damping;
+		float L_21 = __this->___damping;
+		NullCheck(L_19);
+		ComputeShader_SetFloat_m2FE52744249AF4785EDA2F66ECF96B67E1EF2E7B(L_19, L_20, L_21, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:146>
+		int32_t L_22 = __this->___resolution;
+		int32_t L_23;
+		L_23 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)L_22)/(8.0f))), NULL);
+		V_2 = L_23;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:147>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_24 = __this->___waveCompute;
+		int32_t L_25 = __this->___kStep;
+		int32_t L_26 = V_2;
+		int32_t L_27 = V_2;
+		NullCheck(L_24);
+		ComputeShader_Dispatch_mEED7BA68C28B1B39E75208D0D4D9915D41985B0A(L_24, L_25, L_26, L_27, 1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:149>
+		int32_t L_28 = V_0;
+		__this->___writeIdx = L_28;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:150>
+		return;
+	}
+}
+// Method Definition Index: 132501
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_BindTextureToMaterial_m10C3C229EAA49463BA9C19C63CB2F99F4D9138C1 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:154>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_0 = __this->___meshRenderer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = __this->___mpb;
+		NullCheck(L_0);
+		Renderer_GetPropertyBlock_mD062F90343D70151CA060AE7EBEF2E85146A9FBA(L_0, L_1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:155>
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_2 = __this->___mpb;
+		il2cpp_codegen_runtime_class_init_inline(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		int32_t L_3 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_HeightTex;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_4 = __this->___heightTex;
+		int32_t L_5;
+		L_5 = WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF(__this, NULL);
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_2);
+		MaterialPropertyBlock_SetTexture_m39F531D3F35D6C5B661A7B4F07DD7B8ACC22627F(L_2, L_3, L_7, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:156>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_8 = __this->___meshRenderer;
+		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_9 = __this->___mpb;
+		NullCheck(L_8);
+		Renderer_SetPropertyBlock_mF565698782FE54580B17CC0BFF9B0C4F0D68DF50(L_8, L_9, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:157>
+		return;
+	}
+}
+// Method Definition Index: 132502
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_RequestReadback_mA83C60113BEE28EA709D8DAB4C8F621664708876 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_OnReadbackComplete_m4C0869861D0367B1EA8C5F7E6C0FCF4C6D0F9BA8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:161>
+		bool L_0 = __this->___readbackInFlight;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:161>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:162>
+		int32_t L_1 = __this->___framesSinceReadback;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		int32_t L_2 = V_0;
+		__this->___framesSinceReadback = L_2;
+		int32_t L_3 = V_0;
+		int32_t L_4 = __this->___readbackInterval;
+		if ((((int32_t)L_3) >= ((int32_t)L_4)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:162>
+		return;
+	}
+
+IL_0023:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:163>
+		__this->___framesSinceReadback = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:165>
+		__this->___readbackInFlight = (bool)1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:166>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_5 = __this->___heightTex;
+		int32_t L_6;
+		L_6 = WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF(__this, NULL);
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F* L_9 = (Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F*)il2cpp_codegen_object_new(Action_1_t6AC29B34E68BC53AA807670D868CBB59CD5D995F_il2cpp_TypeInfo_var);
+		Action_1__ctor_m347338A163A1A0840FA150F7ACCC029D46339777(L_9, __this, (intptr_t)((void*)WaterSimulation_OnReadbackComplete_m4C0869861D0367B1EA8C5F7E6C0FCF4C6D0F9BA8_RuntimeMethod_var), NULL);
+		AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 L_10;
+		L_10 = AsyncGPUReadback_Request_m5D899367806082794B10D6038D0ECDD23F7C4A1C(L_8, 0, ((int32_t)19), L_9, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:167>
+		return;
+	}
+}
+// Method Definition Index: 132503
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_OnReadbackComplete_m4C0869861D0367B1EA8C5F7E6C0FCF4C6D0F9BA8 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 ___0_req, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:171>
+		__this->___readbackInFlight = (bool)0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:172>
+		bool L_0;
+		L_0 = AsyncGPUReadbackRequest_get_hasError_m374BB20A32B9DCDBFD8F81BBE542847B82F04EE5((&___0_req), NULL);
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:172>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:173>
+		NativeArray_1_t0BB246A2F65C2C705F83BEBE1B62D9543C330B70 L_1;
+		L_1 = AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B((&___0_req), 0, AsyncGPUReadbackRequest_GetData_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA1295857845C9CC3357D0378069A6DC58472919B_RuntimeMethod_var);
+		V_0 = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:174>
+		int32_t L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_3 = __this->___heightCache;
+		NullCheck(L_3);
+		if ((((int32_t)L_2) == ((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:174>
+		return;
+	}
+
+IL_002c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:175>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4 = __this->___heightCache;
+		NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649((&V_0), L_4, NativeArray_1_CopyTo_mCCE275E9B9E8FAF995199F6E7AB08389BE14B649_RuntimeMethod_var);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:176>
+		return;
+	}
+}
+// Method Definition Index: 132504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Splash_m27866B80FC65F6323393BD1EC5493A4E1AE19B66 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_strength, float ___2_radius, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:181>
+		float L_0 = ___1_strength;
+		if ((!(((float)L_0) < ((float)(0.0f)))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:181>
+		float L_1 = __this->___defaultSplashStrength;
+		___1_strength = L_1;
+	}
+
+IL_0010:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:182>
+		float L_2 = ___2_radius;
+		if ((!(((float)L_2) < ((float)(0.0f)))))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:182>
+		float L_3 = __this->___defaultSplashRadius;
+		___2_radius = L_3;
+	}
+
+IL_0020:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:183>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_worldPos;
+		float L_5 = ___1_strength;
+		float L_6 = ___2_radius;
+		WaterSimulation_DispatchGaussian_m2F7C4D7B396F092FCBBCE846D04DA53C41A89494(__this, L_4, L_5, L_6, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:184>
+		return;
+	}
+}
+// Method Definition Index: 132505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_Depress_mF029146A00C90F8D19F2F17F95074D90FC3A1660 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_strength, float ___2_radius, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:189>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_worldPos;
+		float L_1 = ___1_strength;
+		float L_2;
+		L_2 = fabsf(L_1);
+		float L_3 = ___2_radius;
+		WaterSimulation_DispatchGaussian_m2F7C4D7B396F092FCBBCE846D04DA53C41A89494(__this, L_0, ((-L_2)), L_3, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:190>
+		return;
+	}
+}
+// Method Definition Index: 132506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation_DispatchGaussian_m2F7C4D7B396F092FCBBCE846D04DA53C41A89494 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, float ___1_signedStrength, float ___2_radius, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:194>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_worldPos;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:195>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:196>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:197>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		float L_4 = L_3.___x;
+		float L_5 = __this->___planeSize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		float L_7 = L_6.___z;
+		float L_8 = __this->___planeSize;
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), ((float)il2cpp_codegen_add(((float)(L_4/L_5)), (0.5f))), ((float)il2cpp_codegen_add(((float)(L_7/L_8)), (0.5f))), NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:199>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_1;
+		float L_10 = L_9.___x;
+		if ((((float)L_10) < ((float)(0.0f))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_1;
+		float L_12 = L_11.___x;
+		if ((((float)L_12) > ((float)(1.0f))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_1;
+		float L_14 = L_13.___y;
+		if ((((float)L_14) < ((float)(0.0f))))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_1;
+		float L_16 = L_15.___y;
+		if ((!(((float)L_16) > ((float)(1.0f)))))
+		{
+			goto IL_006f;
+		}
+	}
+
+IL_006e:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:199>
+		return;
+	}
+
+IL_006f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:201>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_17 = __this->___waveCompute;
+		int32_t L_18 = __this->___kSplash;
+		il2cpp_codegen_runtime_class_init_inline(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		int32_t L_19 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashTarget;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_20 = __this->___heightTex;
+		int32_t L_21;
+		L_21 = WaterSimulation_get_CurrentIdx_m28AA091F5D61CE44B0DC5CE0009BDAAFA71B87DF(__this, NULL);
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_17);
+		ComputeShader_SetTexture_mA3F2EEE36DB76DD197EC7910B859854A63186AC3(L_17, L_18, L_19, L_23, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:202>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_24 = __this->___waveCompute;
+		int32_t L_25 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Resolution;
+		int32_t L_26 = __this->___resolution;
+		NullCheck(L_24);
+		ComputeShader_SetInt_m5BED46962875818A120FA6D2E4FD820B62BCE8AD(L_24, L_25, L_26, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:203>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_27 = __this->___waveCompute;
+		int32_t L_28 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashPos;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = V_1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_30;
+		L_30 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_29, NULL);
+		NullCheck(L_27);
+		ComputeShader_SetVector_m4BD44B05B60DEEC7FB3EC03E1D3D4E72EA6BD3CD(L_27, L_28, L_30, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:204>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_31 = __this->___waveCompute;
+		int32_t L_32 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashRadius;
+		float L_33 = ___2_radius;
+		NullCheck(L_31);
+		ComputeShader_SetFloat_m2FE52744249AF4785EDA2F66ECF96B67E1EF2E7B(L_31, L_32, L_33, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:205>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_34 = __this->___waveCompute;
+		int32_t L_35 = ((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashStrength;
+		float L_36 = ___1_signedStrength;
+		NullCheck(L_34);
+		ComputeShader_SetFloat_m2FE52744249AF4785EDA2F66ECF96B67E1EF2E7B(L_34, L_35, L_36, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:207>
+		int32_t L_37 = __this->___resolution;
+		int32_t L_38;
+		L_38 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)L_37)/(8.0f))), NULL);
+		V_2 = L_38;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:208>
+		ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* L_39 = __this->___waveCompute;
+		int32_t L_40 = __this->___kSplash;
+		int32_t L_41 = V_2;
+		int32_t L_42 = V_2;
+		NullCheck(L_39);
+		ComputeShader_Dispatch_mEED7BA68C28B1B39E75208D0D4D9915D41985B0A(L_39, L_40, L_41, L_42, 1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:209>
+		return;
+	}
+}
+// Method Definition Index: 132507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WaterSimulation_get_WaterSurfaceY_m1486E23BDA3F1F8CA9079BE8BB7054C4FBF305A9 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:212>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		float L_2 = L_1.___y;
+		return L_2;
+	}
+}
+// Method Definition Index: 132508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WaterSimulation_GetWaterSurfaceY_mB022F12EDACCA54A1320DC60A4029C530A4B3D43 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_worldPos, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:217>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		float L_2 = L_1.___y;
+		V_0 = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:218>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_3 = __this->___heightCache;
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		bool L_4 = __this->___enableReadback;
+		if (L_4)
+		{
+			goto IL_0023;
+		}
+	}
+
+IL_0021:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:218>
+		float L_5 = V_0;
+		return L_5;
+	}
+
+IL_0023:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:220>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___0_worldPos;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_6, L_7, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:221>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8;
+		float L_10 = L_9.___x;
+		float L_11 = __this->___planeSize;
+		V_1 = ((float)il2cpp_codegen_add(((float)(L_10/L_11)), (0.5f)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:222>
+		float L_12 = L_9.___z;
+		float L_13 = __this->___planeSize;
+		V_2 = ((float)il2cpp_codegen_add(((float)(L_12/L_13)), (0.5f)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:223>
+		float L_14 = V_1;
+		if ((((float)L_14) < ((float)(0.0f))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		float L_15 = V_1;
+		if ((((float)L_15) > ((float)(1.0f))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		float L_16 = V_2;
+		if ((((float)L_16) < ((float)(0.0f))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		float L_17 = V_2;
+		if ((!(((float)L_17) > ((float)(1.0f)))))
+		{
+			goto IL_0078;
+		}
+	}
+
+IL_0076:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:223>
+		float L_18 = V_0;
+		return L_18;
+	}
+
+IL_0078:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:225>
+		float L_19 = V_1;
+		int32_t L_20 = __this->___resolution;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:226>
+		float L_21 = V_2;
+		int32_t L_22 = __this->___resolution;
+		V_3 = ((float)il2cpp_codegen_multiply(L_21, ((float)((int32_t)il2cpp_codegen_subtract(L_22, 1)))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:227>
+		float L_23 = ((float)il2cpp_codegen_multiply(L_19, ((float)((int32_t)il2cpp_codegen_subtract(L_20, 1)))));
+		int32_t L_24;
+		L_24 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_23, NULL);
+		int32_t L_25 = __this->___resolution;
+		int32_t L_26;
+		L_26 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_24, 0, ((int32_t)il2cpp_codegen_subtract(L_25, 1)), NULL);
+		V_4 = L_26;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:228>
+		float L_27 = V_3;
+		int32_t L_28;
+		L_28 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_27, NULL);
+		int32_t L_29 = __this->___resolution;
+		int32_t L_30;
+		L_30 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_28, 0, ((int32_t)il2cpp_codegen_subtract(L_29, 1)), NULL);
+		V_5 = L_30;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:229>
+		int32_t L_31 = V_4;
+		int32_t L_32 = __this->___resolution;
+		int32_t L_33;
+		L_33 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_add(L_31, 1)), ((int32_t)il2cpp_codegen_subtract(L_32, 1)), NULL);
+		V_6 = L_33;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:230>
+		int32_t L_34 = V_5;
+		int32_t L_35 = __this->___resolution;
+		int32_t L_36;
+		L_36 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_add(L_34, 1)), ((int32_t)il2cpp_codegen_subtract(L_35, 1)), NULL);
+		V_7 = L_36;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:231>
+		int32_t L_37 = V_4;
+		V_8 = ((float)il2cpp_codegen_subtract(L_23, ((float)L_37)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:232>
+		float L_38 = V_3;
+		int32_t L_39 = V_5;
+		V_9 = ((float)il2cpp_codegen_subtract(L_38, ((float)L_39)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:234>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_40 = __this->___heightCache;
+		int32_t L_41 = V_5;
+		int32_t L_42 = __this->___resolution;
+		int32_t L_43 = V_4;
+		NullCheck(L_40);
+		float L_44 = ((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_41, L_42)), L_43)))))->___y;
+		V_10 = L_44;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:235>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_45 = __this->___heightCache;
+		int32_t L_46 = V_5;
+		int32_t L_47 = __this->___resolution;
+		int32_t L_48 = V_6;
+		NullCheck(L_45);
+		float L_49 = ((L_45)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_46, L_47)), L_48)))))->___y;
+		V_11 = L_49;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:236>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_50 = __this->___heightCache;
+		int32_t L_51 = V_7;
+		int32_t L_52 = __this->___resolution;
+		int32_t L_53 = V_4;
+		NullCheck(L_50);
+		float L_54 = ((L_50)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_51, L_52)), L_53)))))->___y;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:237>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_55 = __this->___heightCache;
+		int32_t L_56 = V_7;
+		int32_t L_57 = __this->___resolution;
+		int32_t L_58 = V_6;
+		NullCheck(L_55);
+		float L_59 = ((L_55)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_56, L_57)), L_58)))))->___y;
+		V_12 = L_59;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:239>
+		float L_60 = V_10;
+		float L_61 = V_11;
+		float L_62 = V_8;
+		float L_63;
+		L_63 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_60, L_61, L_62, NULL);
+		V_13 = L_63;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:240>
+		float L_64 = V_12;
+		float L_65 = V_8;
+		float L_66;
+		L_66 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_54, L_64, L_65, NULL);
+		V_14 = L_66;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:241>
+		float L_67 = V_0;
+		float L_68 = V_13;
+		float L_69 = V_14;
+		float L_70 = V_9;
+		float L_71;
+		L_71 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_68, L_69, L_70, NULL);
+		float L_72 = __this->___heightScale;
+		return ((float)il2cpp_codegen_add(L_67, ((float)il2cpp_codegen_multiply(L_71, L_72))));
+	}
+}
+// Method Definition Index: 132509
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation__ctor_m1556D51651A1A4B769A81A9150C541B690A507A6 (WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:23>
+		__this->___resolution = ((int32_t)256);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:24>
+		__this->___damping = (0.995999992f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:25>
+		__this->___stepsPerFrame = 2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:28>
+		__this->___planeSize = (10.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:30>
+		__this->___heightScale = (1.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:33>
+		__this->___defaultSplashRadius = (0.0250000004f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:34>
+		__this->___defaultSplashStrength = (0.400000006f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:37>
+		__this->___enableReadback = (bool)1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:38>
+		__this->___readbackInterval = 1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:40>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_0 = (RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6*)(RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6*)SZArrayNew(RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var, (uint32_t)2);
+		__this->___heightTex = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___heightTex), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 132510
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterSimulation__cctor_m359CBF89669142517B3E17C887D69CC1218A077A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral013970B1F4F113D9905320B8DA67EDC0BBBF74AF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral02E1E748DF9EC8AF9775C056147E31750EAB7B6C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1CCD1E6E9D5768E3E47F88B9814EB76BA65279B0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47BB19AC6F1786173D4601D1964D2A377F45ED6E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C4E6C3417A3FC493E1162D0F1E88686B748A413);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6067E93B7ED6BC9634C2207045961FBB1126B92A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA07E145031DDAA4CA543A2D311378F4152EE110F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD18094E78B91ECB0FE804F196C728D94A5D9BEA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCCB9A4A18B99EC3F7FE438F820F07E5CD0ABC857);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:52>
+		int32_t L_0;
+		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral02E1E748DF9EC8AF9775C056147E31750EAB7B6C, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Input = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:53>
+		int32_t L_1;
+		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral6067E93B7ED6BC9634C2207045961FBB1126B92A, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Output = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:54>
+		int32_t L_2;
+		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralCCB9A4A18B99EC3F7FE438F820F07E5CD0ABC857, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashTarget = L_2;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:55>
+		int32_t L_3;
+		L_3 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral013970B1F4F113D9905320B8DA67EDC0BBBF74AF, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Resolution = L_3;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:56>
+		int32_t L_4;
+		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral47BB19AC6F1786173D4601D1964D2A377F45ED6E, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_Damping = L_4;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:57>
+		int32_t L_5;
+		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralA07E145031DDAA4CA543A2D311378F4152EE110F, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashPos = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:58>
+		int32_t L_6;
+		L_6 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral1CCD1E6E9D5768E3E47F88B9814EB76BA65279B0, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashRadius = L_6;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:59>
+		int32_t L_7;
+		L_7 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral4C4E6C3417A3FC493E1162D0F1E88686B748A413, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_SplashStrength = L_7;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/Scripts/WaterSimulation.cs:60>
+		int32_t L_8;
+		L_8 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralAD18094E78B91ECB0FE804F196C728D94A5D9BEA, NULL);
+		((WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_StaticFields*)il2cpp_codegen_static_fields_for(WaterSimulation_t349421DC2E7C0267B997F1DF4BA2A58A0BEC1B6C_il2cpp_TypeInfo_var))->___P_HeightTex = L_8;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132511
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlobChain_Start_m61D0A531AFF383067D6BE18BE627BF28896A9529 (WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7EE215F509504E427F28E58445A5ECC8DFA709AF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral959CF873921F0F3DDF40E84E6B1367178DD0A7FC);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:38>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___blobPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:40>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral7EE215F509504E427F28E58445A5ECC8DFA709AF, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:41>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:42>
+		return;
+	}
+
+IL_0020:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:45>
+		int32_t L_2 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_2);
+		__this->___points = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___points), (void*)L_3);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:46>
+		int32_t L_4 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___velocities = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___velocities), (void*)L_5);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:47>
+		int32_t L_6 = __this->___pointCount;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_7 = (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)SZArrayNew(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___blobs = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blobs), (void*)L_7);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:49>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_9)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		G_B5_0 = L_11;
+		goto IL_0079;
+	}
+
+IL_006e:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___source;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		G_B5_0 = L_13;
+	}
+
+IL_0079:
+	{
+		V_0 = G_B5_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:51>
+		V_1 = 0;
+		goto IL_00dd;
+	}
+
+IL_007e:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:53>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_14 = __this->___points;
+		int32_t L_15 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_16);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:54>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = __this->___velocities;
+		int32_t L_18 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_19);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:56>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___blobPrefab;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22;
+		L_22 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_20, L_21, L_22, L_23, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
+		V_2 = L_24;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:57>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_2;
+		String_t* L_26;
+		L_26 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_27;
+		L_27 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral959CF873921F0F3DDF40E84E6B1367178DD0A7FC, L_26, NULL);
+		NullCheck(L_25);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_25, L_27, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:58>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_28 = __this->___blobs;
+		int32_t L_29 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_2;
+		NullCheck(L_30);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
+		NullCheck(L_28);
+		ArrayElementTypeCheck (L_28, L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(L_29), (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)L_31);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:51>
+		int32_t L_32 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+	}
+
+IL_00dd:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:51>
+		int32_t L_33 = V_1;
+		int32_t L_34 = __this->___pointCount;
+		if ((((int32_t)L_33) < ((int32_t)L_34)))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 132512
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlobChain_LateUpdate_m632C7D54EEA2D273F04CC84E07DEDA3C13EF159F (WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	float V_10 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B9_0;
+	memset((&G_B9_0), 0, sizeof(G_B9_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B10_0;
+	memset((&G_B10_0), 0, sizeof(G_B10_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B10_1;
+	memset((&G_B10_1), 0, sizeof(G_B10_1));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:64>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___attractor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_3)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = __this->___blobs;
+		if (L_4)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_0024:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:64>
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:66>
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		V_0 = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:67>
+		float L_6 = V_0;
+		if ((!(((float)L_6) <= ((float)(0.0f)))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:67>
+		return;
+	}
+
+IL_0034:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:69>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = __this->___points;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = __this->___points;
+		NullCheck(L_8);
+		int32_t L_9 = 0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___source;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		float L_13 = __this->___sourceFollowSpeed;
+		float L_14 = V_0;
+		float L_15;
+		L_15 = expf(((float)il2cpp_codegen_multiply(((-L_13)), L_14)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_10, L_12, ((float)il2cpp_codegen_subtract((1.0f), L_15)), NULL);
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_16);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:71>
+		V_1 = 1;
+		goto IL_01f5;
+	}
+
+IL_0077:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:73>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = __this->___points;
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		V_2 = L_20;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:74>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = __this->___points;
+		int32_t L_22 = V_1;
+		NullCheck(L_21);
+		int32_t L_23 = ((int32_t)il2cpp_codegen_subtract(L_22, 1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:76>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_25, L_26, NULL);
+		V_3 = L_27;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:77>
+		float L_28;
+		L_28 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
+		if ((((float)L_28) > ((float)(9.99999975E-06f))))
+		{
+			G_B9_0 = L_25;
+			goto IL_00af;
+		}
+		G_B8_0 = L_25;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		G_B10_0 = L_29;
+		G_B10_1 = G_B8_0;
+		goto IL_00b6;
+	}
+
+IL_00af:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_3), NULL);
+		G_B10_0 = L_30;
+		G_B10_1 = G_B9_0;
+	}
+
+IL_00b6:
+	{
+		V_4 = G_B10_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:78>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_4;
+		float L_32 = __this->___segmentLength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_31, L_32, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(G_B10_1, L_33, NULL);
+		V_5 = L_34;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:80>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_6 = L_35;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:81>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_37, L_38, NULL);
+		float L_40 = __this->___springStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_39, L_40, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_36, L_41, NULL);
+		V_6 = L_42;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:83>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = __this->___attractor;
+		NullCheck(L_43);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_43, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_44, L_45, NULL);
+		V_7 = L_46;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:84>
+		float L_47;
+		L_47 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
+		V_8 = L_47;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:86>
+		float L_48 = V_8;
+		if ((!(((float)L_48) > ((float)(9.99999975E-06f)))))
+		{
+			goto IL_0175;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:88>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_7;
+		float L_50 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_49, L_50, NULL);
+		V_9 = L_51;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:89>
+		float L_52 = V_8;
+		float L_53 = __this->___orbitRadius;
+		V_10 = ((float)il2cpp_codegen_subtract(L_52, L_53));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:90>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_9;
+		float L_56 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
+		L_57 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_55, L_56, NULL);
+		float L_58 = __this->___attractStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
+		L_59 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_57, L_58, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
+		L_60 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_54, L_59, NULL);
+		V_6 = L_60;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:92>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = __this->___swirlAxis;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_61, L_62, NULL);
+		V_12 = L_63;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_12), NULL);
+		V_11 = L_64;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:93>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_11;
+		float L_67 = __this->___swirlStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
+		L_68 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_66, L_67, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
+		L_69 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_65, L_68, NULL);
+		V_6 = L_69;
+	}
+
+IL_0175:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:96>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_70 = __this->___velocities;
+		int32_t L_71 = V_1;
+		NullCheck(L_70);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_72 = ((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_72);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = V_6;
+		float L_75 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76;
+		L_76 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_74, L_75, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
+		L_77 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_73, L_76, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_72 = L_77;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:97>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_78 = __this->___velocities;
+		int32_t L_79 = V_1;
+		NullCheck(L_78);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_80 = ((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_80);
+		float L_82 = __this->___damping;
+		float L_83 = V_0;
+		float L_84;
+		L_84 = expf(((float)il2cpp_codegen_multiply(((-L_82)), L_83)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85;
+		L_85 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_81, L_84, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_80 = L_85;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:98>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_86 = __this->___points;
+		int32_t L_87 = V_1;
+		NullCheck(L_86);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_88 = ((L_86)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_87)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_90 = __this->___velocities;
+		int32_t L_91 = V_1;
+		NullCheck(L_90);
+		int32_t L_92 = L_91;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+		float L_94 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
+		L_95 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_93, L_94, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96;
+		L_96 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_89, L_95, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88 = L_96;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:71>
+		int32_t L_97 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_01f5:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:71>
+		int32_t L_98 = V_1;
+		int32_t L_99 = __this->___pointCount;
+		if ((((int32_t)L_98) < ((int32_t)L_99)))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:101>
+		WaterBlobChain_UpdateBlobs_mFF0C152EDE09E4BDE688EFE6548C0BAF17B2AF84(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 132513
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlobChain_UpdateBlobs_mFF0C152EDE09E4BDE688EFE6548C0BAF17B2AF84 (WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:106>
+		V_0 = 0;
+		goto IL_011f;
+	}
+
+IL_0007:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:108>
+		int32_t L_0 = V_0;
+		int32_t L_1 = __this->___pointCount;
+		V_1 = ((float)(((float)L_0)/((float)((int32_t)il2cpp_codegen_subtract(L_1, 1)))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:110>
+		float L_2 = __this->___baseBlobSize;
+		float L_3 = __this->___endBlobSize;
+		float L_4 = V_1;
+		float L_5;
+		L_5 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_2, L_3, L_4, NULL);
+		V_2 = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:111>
+		float L_6;
+		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_7 = __this->___wobbleSpeed;
+		int32_t L_8 = V_0;
+		float L_9;
+		L_9 = sinf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_6, L_7)), ((float)il2cpp_codegen_multiply(((float)L_8), (0.449999988f))))));
+		float L_10 = __this->___sizeWobble;
+		V_3 = ((float)il2cpp_codegen_multiply(L_9, L_10));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:113>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:114>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:115>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:116>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:117>
+		float L_11;
+		L_11 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_12 = __this->___wobbleSpeed;
+		int32_t L_13 = V_0;
+		float L_14;
+		L_14 = sinf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_11, L_12)), ((float)il2cpp_codegen_multiply(((float)L_13), (0.310000002f))))));
+		float L_15;
+		L_15 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_16 = __this->___wobbleSpeed;
+		int32_t L_17 = V_0;
+		float L_18;
+		L_18 = cosf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_15, L_16)), (0.899999976f))), ((float)il2cpp_codegen_multiply(((float)L_17), (0.270000011f))))));
+		float L_19;
+		L_19 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_20 = __this->___wobbleSpeed;
+		int32_t L_21 = V_0;
+		float L_22;
+		L_22 = sinf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_19, L_20)), (1.10000002f))), ((float)il2cpp_codegen_multiply(((float)L_21), (0.189999998f))))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), L_14, L_18, L_22, NULL);
+		float L_24 = __this->___positionWobble;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_23, L_24, NULL);
+		V_4 = L_25;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:119>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_26 = __this->___blobs;
+		int32_t L_27 = V_0;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_30 = __this->___points;
+		int32_t L_31 = V_0;
+		NullCheck(L_30);
+		int32_t L_32 = L_31;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_33, L_34, NULL);
+		NullCheck(L_29);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_29, L_35, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:121>
+		float L_36 = V_2;
+		float L_37 = V_3;
+		float L_38;
+		L_38 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00100000005f), ((float)il2cpp_codegen_add(L_36, L_37)), NULL);
+		V_5 = L_38;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:122>
+		int32_t L_39 = V_0;
+		if (((int32_t)(L_39%4)))
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:122>
+		float L_40 = V_5;
+		V_5 = ((float)il2cpp_codegen_multiply(L_40, (1.17999995f)));
+	}
+
+IL_00f3:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:123>
+		int32_t L_41 = V_0;
+		if (((int32_t)(L_41%5)))
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:123>
+		float L_42 = V_5;
+		V_5 = ((float)il2cpp_codegen_multiply(L_42, (1.10000002f)));
+	}
+
+IL_0102:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:125>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_43 = __this->___blobs;
+		int32_t L_44 = V_0;
+		NullCheck(L_43);
+		int32_t L_45 = L_44;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
+		L_47 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_48 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_47, L_48, NULL);
+		NullCheck(L_46);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_46, L_49, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:106>
+		int32_t L_50 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+	}
+
+IL_011f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:106>
+		int32_t L_51 = V_0;
+		int32_t L_52 = __this->___pointCount;
+		if ((((int32_t)L_51) < ((int32_t)L_52)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:127>
+		return;
+	}
+}
+// Method Definition Index: 132514
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterBlobChain__ctor_m7DA1D38F45BDE5B5977C65880231D0C38021AD92 (WaterBlobChain_t1D4DC02DF313512D896C6660A8002B3CB3198E99* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:11>
+		__this->___pointCount = ((int32_t)18);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:12>
+		__this->___segmentLength = (0.0450000018f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:15>
+		__this->___sourceFollowSpeed = (18.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:16>
+		__this->___springStrength = (12.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:17>
+		__this->___damping = (10.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:20>
+		__this->___attractStrength = (4.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:21>
+		__this->___orbitRadius = (0.200000003f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:22>
+		__this->___swirlStrength = (0.699999988f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:23>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		__this->___swirlAxis = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:26>
+		__this->___baseBlobSize = (0.0500000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:27>
+		__this->___endBlobSize = (0.0179999992f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:28>
+		__this->___sizeWobble = (0.00499999989f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:29>
+		__this->___positionWobble = (0.00400000019f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterBlobChain.cs:30>
+		__this->___wobbleSpeed = (1.20000005f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132515
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon_Awake_mE4BEBA972EC6BF607BC76E12DA4318B2F0C777DB (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:35>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0;
+		L_0 = Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49(__this, Component_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m4F17B3CA1E7FFB03C7682312A59B9185E0F67C49_RuntimeMethod_var);
+		__this->___lr = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lr), (void*)L_0);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:36>
+		int32_t L_1 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_1);
+		__this->___points = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___points), (void*)L_2);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:37>
+		int32_t L_3 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_3);
+		__this->___velocities = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___velocities), (void*)L_4);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:38>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_5 = __this->___lr;
+		int32_t L_6 = __this->___pointCount;
+		NullCheck(L_5);
+		LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205(L_5, L_6, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 132516
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon_Start_m8BE00258E924E697EC3740607CB9C9F8C379C2CB (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:43>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		G_B3_0 = L_3;
+		goto IL_0026;
+	}
+
+IL_001b:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___source;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		G_B3_0 = L_5;
+	}
+
+IL_0026:
+	{
+		V_0 = G_B3_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:45>
+		V_1 = 0;
+		goto IL_004d;
+	}
+
+IL_002b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:47>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = __this->___points;
+		int32_t L_7 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_8);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:48>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_9 = __this->___velocities;
+		int32_t L_10 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_11);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:45>
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_004d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:45>
+		int32_t L_13 = V_1;
+		int32_t L_14 = __this->___pointCount;
+		if ((((int32_t)L_13) < ((int32_t)L_14)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:51>
+		WaterRibbon_UpdateRenderer_m0D602DEDBFBC74FFA37443EB525F602509E339F8(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 132517
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon_LateUpdate_mC66E89E7807312943DEFB323ABBBBA12EA483B25 (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	float V_12 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B7_0;
+	memset((&G_B7_0), 0, sizeof(G_B7_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B9_0;
+	memset((&G_B9_0), 0, sizeof(G_B9_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B9_1;
+	memset((&G_B9_1), 0, sizeof(G_B9_1));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:56>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___attractor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:56>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:58>
+		float L_4;
+		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		V_0 = L_4;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:59>
+		float L_5 = V_0;
+		if ((!(((float)L_5) <= ((float)(0.0f)))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:59>
+		return;
+	}
+
+IL_002c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:62>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = __this->___points;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = __this->___points;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___source;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		float L_12 = __this->___sourceFollowSpeed;
+		float L_13 = V_0;
+		float L_14;
+		L_14 = expf(((float)il2cpp_codegen_multiply(((-L_12)), L_13)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_9, L_11, ((float)il2cpp_codegen_subtract((1.0f), L_14)), NULL);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_15);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:64>
+		V_1 = 1;
+		goto IL_0264;
+	}
+
+IL_006f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:66>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = __this->___points;
+		int32_t L_17 = V_1;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		V_2 = L_19;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:67>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_20 = __this->___points;
+		int32_t L_21 = V_1;
+		NullCheck(L_20);
+		int32_t L_22 = ((int32_t)il2cpp_codegen_subtract(L_21, 1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:70>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_24, L_25, NULL);
+		V_3 = L_26;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:71>
+		float L_27;
+		L_27 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
+		if ((((float)L_27) > ((float)(9.99999975E-06f))))
+		{
+			G_B8_0 = L_24;
+			goto IL_00a7;
+		}
+		G_B7_0 = L_24;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		G_B9_0 = L_28;
+		G_B9_1 = G_B7_0;
+		goto IL_00ae;
+	}
+
+IL_00a7:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_3), NULL);
+		G_B9_0 = L_29;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_00ae:
+	{
+		V_4 = G_B9_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:72>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_4;
+		float L_31 = __this->___segmentLength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_30, L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(G_B9_1, L_32, NULL);
+		V_5 = L_33;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:74>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_6 = L_34;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:77>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_36, L_37, NULL);
+		float L_39 = __this->___springStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_38, L_39, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_35, L_40, NULL);
+		V_6 = L_41;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:80>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42 = __this->___attractor;
+		NullCheck(L_42);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_42, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+		L_45 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_43, L_44, NULL);
+		V_7 = L_45;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:81>
+		float L_46;
+		L_46 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
+		V_8 = L_46;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:83>
+		float L_47 = V_8;
+		if ((!(((float)L_47) > ((float)(9.99999975E-06f)))))
+		{
+			goto IL_016d;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:85>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_7;
+		float L_49 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		L_50 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_48, L_49, NULL);
+		V_11 = L_50;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:87>
+		float L_51 = V_8;
+		float L_52 = __this->___orbitRadius;
+		V_12 = ((float)il2cpp_codegen_subtract(L_51, L_52));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:88>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_11;
+		float L_55 = V_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
+		L_56 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_54, L_55, NULL);
+		float L_57 = __this->___attractStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
+		L_58 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_56, L_57, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
+		L_59 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_53, L_58, NULL);
+		V_6 = L_59;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:90>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = __this->___swirlAxis;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62;
+		L_62 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_60, L_61, NULL);
+		V_14 = L_62;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_14), NULL);
+		V_13 = L_63;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:91>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = V_13;
+		float L_66 = __this->___swirlStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67;
+		L_67 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_65, L_66, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
+		L_68 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_64, L_67, NULL);
+		V_6 = L_68;
+	}
+
+IL_016d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:95>
+		float L_69;
+		L_69 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_70 = __this->___noiseSpeed;
+		int32_t L_71 = V_1;
+		V_9 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_69, L_70)), ((float)il2cpp_codegen_multiply(((float)L_71), (0.209999993f)))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:96>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:97>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:98>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:99>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:100>
+		float L_72 = V_9;
+		float L_73;
+		L_73 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(L_72, (0.129999995f), NULL);
+		float L_74 = V_9;
+		float L_75;
+		L_75 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A((0.310000002f), L_74, NULL);
+		float L_76 = V_9;
+		float L_77 = V_9;
+		float L_78;
+		L_78 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(L_76, ((float)il2cpp_codegen_multiply(L_77, (0.670000017f))), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
+		memset((&L_79), 0, sizeof(L_79));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_79), ((float)il2cpp_codegen_subtract(L_73, (0.5f))), ((float)il2cpp_codegen_subtract(L_75, (0.5f))), ((float)il2cpp_codegen_subtract(L_78, (0.5f))), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
+		L_80 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_79, (2.0f), NULL);
+		float L_81 = __this->___noiseStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
+		L_82 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_80, L_81, NULL);
+		V_10 = L_82;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:102>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85;
+		L_85 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_83, L_84, NULL);
+		V_6 = L_85;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:105>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_86 = __this->___velocities;
+		int32_t L_87 = V_1;
+		NullCheck(L_86);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_88 = ((L_86)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_87)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90 = V_6;
+		float L_91 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
+		L_92 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_90, L_91, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93;
+		L_93 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_89, L_92, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88 = L_93;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:106>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_94 = __this->___velocities;
+		int32_t L_95 = V_1;
+		NullCheck(L_94);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_96 = ((L_94)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_95)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_96);
+		float L_98 = __this->___damping;
+		float L_99 = V_0;
+		float L_100;
+		L_100 = expf(((float)il2cpp_codegen_multiply(((-L_98)), L_99)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_101;
+		L_101 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_97, L_100, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_96 = L_101;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:107>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_102 = __this->___points;
+		int32_t L_103 = V_1;
+		NullCheck(L_102);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_104 = ((L_102)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_103)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_105 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_104);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_106 = __this->___velocities;
+		int32_t L_107 = V_1;
+		NullCheck(L_106);
+		int32_t L_108 = L_107;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = (L_106)->GetAt(static_cast<il2cpp_array_size_t>(L_108));
+		float L_110 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111;
+		L_111 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_109, L_110, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_112;
+		L_112 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_105, L_111, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_104 = L_112;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:64>
+		int32_t L_113 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_113, 1));
+	}
+
+IL_0264:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:64>
+		int32_t L_114 = V_1;
+		int32_t L_115 = __this->___pointCount;
+		if ((((int32_t)L_114) < ((int32_t)L_115)))
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:110>
+		WaterRibbon_UpdateRenderer_m0D602DEDBFBC74FFA37443EB525F602509E339F8(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 132518
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon_UpdateRenderer_m0D602DEDBFBC74FFA37443EB525F602509E339F8 (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:115>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = __this->___lr;
+		int32_t L_1 = __this->___pointCount;
+		NullCheck(L_0);
+		LineRenderer_set_positionCount_m2001FB4044053895ECBE897AB833284F3300B205(L_0, L_1, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:116>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2 = __this->___lr;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___points;
+		NullCheck(L_2);
+		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_2, L_3, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:117>
+		return;
+	}
+}
+// Method Definition Index: 132519
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterRibbon__ctor_m2C0CD8C37FFDDEEFD6230E29B1DCE8F6856E8DB1 (WaterRibbon_tB7BB514A8ADFD020CD45F8DCF67DBF4AF69FF7C4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:11>
+		__this->___pointCount = ((int32_t)24);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:12>
+		__this->___segmentLength = (0.0399999991f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:15>
+		__this->___sourceFollowSpeed = (25.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:16>
+		__this->___springStrength = (20.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:17>
+		__this->___damping = (8.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:20>
+		__this->___attractStrength = (6.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:21>
+		__this->___orbitRadius = (0.180000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:22>
+		__this->___swirlStrength = (1.79999995f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:23>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		__this->___swirlAxis = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:26>
+		__this->___noiseStrength = (0.0149999997f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterRibbon.cs:27>
+		__this->___noiseSpeed = (1.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132520
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_Awake_mB028F2EEEF31D3DC02C22C98B2C9030A35F55086 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAFD7E2C40125870208257DE1B3E556F8E0A24F1E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:46>
+		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_0;
+		L_0 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:47>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_1, NULL);
+		__this->___mesh = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mesh), (void*)L_1);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:48>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = __this->___mesh;
+		NullCheck(L_2);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_2, _stringLiteralAFD7E2C40125870208257DE1B3E556F8E0A24F1E, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:49>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_3 = __this->___mesh;
+		NullCheck(L_3);
+		Mesh_MarkDynamic_m718089940F240AFE625D6DC9DA4E6F20229CC322(L_3, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:50>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = __this->___mesh;
+		NullCheck(L_0);
+		MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_0, L_4, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 132521
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_Start_mD2BE297DA932EE4CB4211542B0415E31703A30B3 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:55>
+		WaterTubeMesh_InitializeMotion_mDAF09889D0BB71827D81A281BA10A1F958F15E3C(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:56>
+		WaterTubeMesh_EnsureMeshData_m4653D595BD55BA908CFFDFAD3DEACF6BE0B72142(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 132522
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_OnValidate_mE9D8A8B00F4461C69A4C6B0C4C4CBA84A6E7C714 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:61>
+		int32_t L_0 = __this->___pointCount;
+		int32_t L_1;
+		L_1 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(8, L_0, NULL);
+		__this->___pointCount = L_1;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:62>
+		int32_t L_2 = __this->___radialSegments;
+		int32_t L_3;
+		L_3 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(3, L_2, NULL);
+		__this->___radialSegments = L_3;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:63>
+		float L_4 = __this->___segmentLength;
+		float L_5;
+		L_5 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00100000005f), L_4, NULL);
+		__this->___segmentLength = L_5;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:64>
+		float L_6 = __this->___startRadius;
+		float L_7;
+		L_7 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00100000005f), L_6, NULL);
+		__this->___startRadius = L_7;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:65>
+		float L_8 = __this->___endRadius;
+		float L_9;
+		L_9 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00100000005f), L_8, NULL);
+		__this->___endRadius = L_9;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 132523
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_InitializeMotion_mDAF09889D0BB71827D81A281BA10A1F958F15E3C (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:70>
+		int32_t L_0 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_0);
+		__this->___points = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___points), (void*)L_1);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:71>
+		int32_t L_2 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_2);
+		__this->___velocities = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___velocities), (void*)L_3);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:73>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_5)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		G_B3_0 = L_7;
+		goto IL_0048;
+	}
+
+IL_003d:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___source;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		G_B3_0 = L_9;
+	}
+
+IL_0048:
+	{
+		V_0 = G_B3_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:75>
+		V_1 = 0;
+		goto IL_006f;
+	}
+
+IL_004d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:77>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = __this->___points;
+		int32_t L_11 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_12);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:78>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = __this->___velocities;
+		int32_t L_14 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_15);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:75>
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_006f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:75>
+		int32_t L_17 = V_1;
+		int32_t L_18 = __this->___pointCount;
+		if ((((int32_t)L_17) < ((int32_t)L_18)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:80>
+		return;
+	}
+}
+// Method Definition Index: 132524
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_EnsureMeshData_m4653D595BD55BA908CFFDFAD3DEACF6BE0B72142 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:84>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___mesh;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:84>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:86>
+		int32_t L_2 = __this->___lastPointCount;
+		int32_t L_3 = __this->___pointCount;
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_4 = __this->___lastRadialSegments;
+		int32_t L_5 = __this->___radialSegments;
+		if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = __this->___vertices;
+		if (!L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:87>
+		return;
+	}
+
+IL_0034:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:89>
+		int32_t L_7 = __this->___pointCount;
+		__this->___lastPointCount = L_7;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:90>
+		int32_t L_8 = __this->___radialSegments;
+		__this->___lastRadialSegments = L_8;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:92>
+		int32_t L_9 = __this->___radialSegments;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:93>
+		int32_t L_10 = __this->___pointCount;
+		int32_t L_11 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_multiply(L_10, L_11));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:94>
+		int32_t L_12 = __this->___pointCount;
+		int32_t L_13 = __this->___radialSegments;
+		V_2 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_12, 1)), L_13)), 6));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:96>
+		int32_t L_14 = V_1;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_15 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_14);
+		__this->___vertices = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___vertices), (void*)L_15);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:97>
+		int32_t L_16 = V_1;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_16);
+		__this->___normals = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___normals), (void*)L_17);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:98>
+		int32_t L_18 = V_1;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_19 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_18);
+		__this->___uvs = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___uvs), (void*)L_19);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:99>
+		int32_t L_20 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_20);
+		__this->___triangles = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___triangles), (void*)L_21);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:101>
+		V_3 = 0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:102>
+		V_4 = 0;
+		goto IL_014a;
+	}
+
+IL_00aa:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:104>
+		int32_t L_22 = V_4;
+		int32_t L_23 = V_0;
+		V_5 = ((int32_t)il2cpp_codegen_multiply(L_22, L_23));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:105>
+		int32_t L_24 = V_4;
+		int32_t L_25 = V_0;
+		V_6 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(L_24, 1)), L_25));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:107>
+		V_7 = 0;
+		goto IL_0137;
+	}
+
+IL_00bd:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:109>
+		int32_t L_26 = V_5;
+		int32_t L_27 = V_7;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_26, L_27));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:110>
+		int32_t L_28 = V_5;
+		int32_t L_29 = V_7;
+		V_9 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_28, L_29)), 1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:111>
+		int32_t L_30 = V_6;
+		int32_t L_31 = V_7;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_30, L_31));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:112>
+		int32_t L_32 = V_6;
+		int32_t L_33 = V_7;
+		V_11 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_32, L_33)), 1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:114>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_34 = __this->___triangles;
+		int32_t L_35 = V_3;
+		int32_t L_36 = L_35;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+		int32_t L_37 = V_8;
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(L_36), (int32_t)L_37);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:115>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_38 = __this->___triangles;
+		int32_t L_39 = V_3;
+		int32_t L_40 = L_39;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_40, 1));
+		int32_t L_41 = V_10;
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(L_40), (int32_t)L_41);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:116>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = __this->___triangles;
+		int32_t L_43 = V_3;
+		int32_t L_44 = L_43;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_44, 1));
+		int32_t L_45 = V_9;
+		NullCheck(L_42);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(L_44), (int32_t)L_45);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:118>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_46 = __this->___triangles;
+		int32_t L_47 = V_3;
+		int32_t L_48 = L_47;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_48, 1));
+		int32_t L_49 = V_9;
+		NullCheck(L_46);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (int32_t)L_49);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:119>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_50 = __this->___triangles;
+		int32_t L_51 = V_3;
+		int32_t L_52 = L_51;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+		int32_t L_53 = V_10;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_52), (int32_t)L_53);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:120>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = __this->___triangles;
+		int32_t L_55 = V_3;
+		int32_t L_56 = L_55;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+		int32_t L_57 = V_11;
+		NullCheck(L_54);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(L_56), (int32_t)L_57);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:107>
+		int32_t L_58 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+	}
+
+IL_0137:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:107>
+		int32_t L_59 = V_7;
+		int32_t L_60 = __this->___radialSegments;
+		if ((((int32_t)L_59) < ((int32_t)L_60)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:102>
+		int32_t L_61 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_61, 1));
+	}
+
+IL_014a:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:102>
+		int32_t L_62 = V_4;
+		int32_t L_63 = __this->___pointCount;
+		if ((((int32_t)L_62) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_63, 1)))))
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:124>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_64 = __this->___mesh;
+		NullCheck(L_64);
+		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_64, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:125>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_65 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_66 = __this->___vertices;
+		NullCheck(L_65);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_65, L_66, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:126>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_67 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = __this->___normals;
+		NullCheck(L_67);
+		Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B(L_67, L_68, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:127>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_69 = __this->___mesh;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_70 = __this->___uvs;
+		NullCheck(L_69);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_69, L_70, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:128>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_71 = __this->___mesh;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = __this->___triangles;
+		NullCheck(L_71);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_71, L_72, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:129>
+		return;
+	}
+}
+// Method Definition Index: 132525
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_LateUpdate_m8BE9C8A62C2F367AB0312F2095EC67FBBE4A2C20 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:133>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___attractor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:133>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:135>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = __this->___points;
+		if (!L_4)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = __this->___points;
+		NullCheck(L_5);
+		int32_t L_6 = __this->___pointCount;
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))) == ((int32_t)L_6)))
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_0035:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:136>
+		WaterTubeMesh_InitializeMotion_mDAF09889D0BB71827D81A281BA10A1F958F15E3C(__this, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:138>
+		WaterTubeMesh_EnsureMeshData_m4653D595BD55BA908CFFDFAD3DEACF6BE0B72142(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:139>
+		WaterTubeMesh_SimulatePoints_mA8489D8E53EC54FB13B4818DD76F983C81B77A41(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:140>
+		WaterTubeMesh_UpdateTubeMesh_m7148FF5B0FE9A8F8D3B9F39AB3E8CDEA8DB11AAC(__this, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:141>
+		return;
+	}
+}
+// Method Definition Index: 132526
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_SimulatePoints_mA8489D8E53EC54FB13B4818DD76F983C81B77A41 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	float V_10 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B6_0;
+	memset((&G_B6_0), 0, sizeof(G_B6_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B6_1;
+	memset((&G_B6_1), 0, sizeof(G_B6_1));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:145>
+		float L_0;
+		L_0 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		V_0 = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:146>
+		float L_1 = V_0;
+		if ((!(((float)L_1) <= ((float)(0.0f)))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:146>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:148>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = __this->___points;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___points;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___source;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		float L_8 = __this->___sourceFollowSpeed;
+		float L_9 = V_0;
+		float L_10;
+		L_10 = expf(((float)il2cpp_codegen_multiply(((-L_8)), L_9)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_5, L_7, ((float)il2cpp_codegen_subtract((1.0f), L_10)), NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_11);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:150>
+		V_1 = 1;
+		goto IL_01d0;
+	}
+
+IL_0052:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:152>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_12 = __this->___points;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		V_2 = L_15;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:153>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = __this->___points;
+		int32_t L_17 = V_1;
+		NullCheck(L_16);
+		int32_t L_18 = ((int32_t)il2cpp_codegen_subtract(L_17, 1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:155>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_20, L_21, NULL);
+		V_3 = L_22;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:156>
+		float L_23;
+		L_23 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
+		if ((((float)L_23) > ((float)(9.99999997E-07f))))
+		{
+			G_B5_0 = L_20;
+			goto IL_008a;
+		}
+		G_B4_0 = L_20;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		G_B6_0 = L_24;
+		G_B6_1 = G_B4_0;
+		goto IL_0091;
+	}
+
+IL_008a:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_3), NULL);
+		G_B6_0 = L_25;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0091:
+	{
+		V_4 = G_B6_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:157>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_4;
+		float L_27 = __this->___segmentLength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_26, L_27, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(G_B6_1, L_28, NULL);
+		V_5 = L_29;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:159>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_6 = L_30;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:162>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_32, L_33, NULL);
+		float L_35 = __this->___springStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+		L_36 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_34, L_35, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_31, L_36, NULL);
+		V_6 = L_37;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:165>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = __this->___attractor;
+		NullCheck(L_38);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_38, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_39, L_40, NULL);
+		V_7 = L_41;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:166>
+		float L_42;
+		L_42 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
+		V_8 = L_42;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:168>
+		float L_43 = V_8;
+		if ((!(((float)L_43) > ((float)(9.99999997E-07f)))))
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:170>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_7;
+		float L_45 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_44, L_45, NULL);
+		V_9 = L_46;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:171>
+		float L_47 = V_8;
+		float L_48 = __this->___orbitRadius;
+		V_10 = ((float)il2cpp_codegen_subtract(L_47, L_48));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:172>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_9;
+		float L_51 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
+		L_52 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_50, L_51, NULL);
+		float L_53 = __this->___attractStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
+		L_54 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_52, L_53, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
+		L_55 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_49, L_54, NULL);
+		V_6 = L_55;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:174>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = __this->___swirlAxis;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
+		L_58 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_56, L_57, NULL);
+		V_12 = L_58;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
+		L_59 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_12), NULL);
+		V_11 = L_59;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:175>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_11;
+		float L_62 = __this->___swirlStrength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_61, L_62, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_60, L_63, NULL);
+		V_6 = L_64;
+	}
+
+IL_0150:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:178>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_65 = __this->___velocities;
+		int32_t L_66 = V_1;
+		NullCheck(L_65);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_67 = ((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_67);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = V_6;
+		float L_70 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
+		L_71 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_69, L_70, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72;
+		L_72 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_68, L_71, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_67 = L_72;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:179>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_73 = __this->___velocities;
+		int32_t L_74 = V_1;
+		NullCheck(L_73);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_75 = ((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_75);
+		float L_77 = __this->___damping;
+		float L_78 = V_0;
+		float L_79;
+		L_79 = expf(((float)il2cpp_codegen_multiply(((-L_77)), L_78)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
+		L_80 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_76, L_79, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_75 = L_80;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:180>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_81 = __this->___points;
+		int32_t L_82 = V_1;
+		NullCheck(L_81);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_83 = ((L_81)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_82)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_83);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_85 = __this->___velocities;
+		int32_t L_86 = V_1;
+		NullCheck(L_85);
+		int32_t L_87 = L_86;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		float L_89 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
+		L_90 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_88, L_89, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
+		L_91 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_84, L_90, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_83 = L_91;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:150>
+		int32_t L_92 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_92, 1));
+	}
+
+IL_01d0:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:150>
+		int32_t L_93 = V_1;
+		int32_t L_94 = __this->___pointCount;
+		if ((((int32_t)L_93) < ((int32_t)L_94)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:182>
+		return;
+	}
+}
+// Method Definition Index: 132527
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh_UpdateTubeMesh_m7148FF5B0FE9A8F8D3B9F39AB3E8CDEA8DB11AAC (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	int32_t V_12 = 0;
+	float V_13 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	int32_t V_15 = 0;
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:186>
+		int32_t L_0 = __this->___radialSegments;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:188>
+		V_1 = 0;
+		goto IL_024a;
+	}
+
+IL_0010:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:190>
+		int32_t L_1 = V_1;
+		int32_t L_2 = __this->___pointCount;
+		V_2 = ((float)(((float)L_1)/((float)((int32_t)il2cpp_codegen_subtract(L_2, 1)))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:192>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___points;
+		int32_t L_4 = V_1;
+		int32_t L_5;
+		L_5 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(((int32_t)il2cpp_codegen_subtract(L_4, 1)), 0, NULL);
+		NullCheck(L_3);
+		int32_t L_6 = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:193>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = __this->___points;
+		int32_t L_9 = V_1;
+		int32_t L_10 = __this->___pointCount;
+		int32_t L_11;
+		L_11 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_add(L_9, 1)), ((int32_t)il2cpp_codegen_subtract(L_10, 1)), NULL);
+		NullCheck(L_8);
+		int32_t L_12 = L_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:194>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_13, L_14, NULL);
+		V_11 = L_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_11), NULL);
+		V_4 = L_16;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:196>
+		float L_17;
+		L_17 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_4), NULL);
+		if ((!(((float)L_17) < ((float)(9.99999997E-07f)))))
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:197>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		V_4 = L_18;
+	}
+
+IL_0073:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:199>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		V_5 = L_19;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:200>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_5;
+		float L_22;
+		L_22 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_20, L_21, NULL);
+		float L_23;
+		L_23 = fabsf(L_22);
+		if ((!(((float)L_23) > ((float)(0.949999988f)))))
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:201>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
+		V_5 = L_24;
+	}
+
+IL_0096:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:203>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_25, L_26, NULL);
+		V_11 = L_27;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_11), NULL);
+		V_6 = L_28;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:204>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline(L_29, L_30, NULL);
+		V_11 = L_31;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_11), NULL);
+		V_7 = L_32;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:206>
+		float L_33 = __this->___startRadius;
+		float L_34 = __this->___endRadius;
+		float L_35 = V_2;
+		float L_36;
+		L_36 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_33, L_34, L_35, NULL);
+		V_8 = L_36;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:208>
+		float L_37;
+		L_37 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_38 = __this->___wobbleSpeed;
+		int32_t L_39 = V_1;
+		float L_40;
+		L_40 = sinf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_37, L_38)), ((float)il2cpp_codegen_multiply(((float)L_39), (0.550000012f))))));
+		float L_41 = __this->___radiusWobble;
+		V_9 = ((float)il2cpp_codegen_multiply(L_40, L_41));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:209>
+		float L_42 = V_8;
+		float L_43 = V_9;
+		V_8 = ((float)il2cpp_codegen_multiply(L_42, ((float)il2cpp_codegen_add((1.0f), L_43))));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:210>
+		float L_44 = V_8;
+		float L_45;
+		L_45 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00100000005f), L_44, NULL);
+		V_8 = L_45;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:212>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:213>
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:214>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_46 = __this->___points;
+		int32_t L_47 = V_1;
+		NullCheck(L_46);
+		int32_t L_48 = L_47;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_6;
+		float L_51;
+		L_51 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_52 = __this->___wobbleSpeed;
+		int32_t L_53 = V_1;
+		float L_54;
+		L_54 = sinf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_51, L_52)), ((float)il2cpp_codegen_multiply(((float)L_53), (0.370000005f))))));
+		float L_55 = __this->___centerWobble;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
+		L_56 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_50, ((float)il2cpp_codegen_multiply(L_54, L_55)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
+		L_57 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_49, L_56, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_7;
+		float L_59;
+		L_59 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_60 = __this->___wobbleSpeed;
+		int32_t L_61 = V_1;
+		float L_62;
+		L_62 = cosf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_59, L_60)), (0.899999976f))), ((float)il2cpp_codegen_multiply(((float)L_61), (0.289999992f))))));
+		float L_63 = __this->___centerWobble;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_58, ((float)il2cpp_codegen_multiply(L_62, L_63)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
+		L_65 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_57, L_64, NULL);
+		V_10 = L_65;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:216>
+		V_12 = 0;
+		goto IL_0239;
+	}
+
+IL_0186:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:218>
+		int32_t L_66 = V_12;
+		int32_t L_67 = __this->___radialSegments;
+		V_13 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)(((float)L_66)/((float)L_67))), (3.14159274f))), (2.0f)));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:219>
+		float L_68 = V_13;
+		float L_69;
+		L_69 = cosf(L_68);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
+		L_71 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_69, L_70, NULL);
+		float L_72 = V_13;
+		float L_73;
+		L_73 = sinf(L_72);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = V_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
+		L_75 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_73, L_74, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76;
+		L_76 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_71, L_75, NULL);
+		V_14 = L_76;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:220>
+		int32_t L_77 = V_1;
+		int32_t L_78 = V_0;
+		int32_t L_79 = V_12;
+		V_15 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_77, L_78)), L_79));
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:222>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_80 = __this->___vertices;
+		int32_t L_81 = V_15;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_82;
+		L_82 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84 = V_14;
+		float L_85 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86;
+		L_86 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_84, L_85, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
+		L_87 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_83, L_86, NULL);
+		NullCheck(L_82);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88;
+		L_88 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_82, L_87, NULL);
+		NullCheck(L_80);
+		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(L_81), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_88);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:223>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_89 = __this->___normals;
+		int32_t L_90 = V_15;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_91;
+		L_91 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_14;
+		NullCheck(L_91);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93;
+		L_93 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_91, L_92, NULL);
+		V_11 = L_93;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94;
+		L_94 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_11), NULL);
+		NullCheck(L_89);
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(L_90), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_94);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:224>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_95 = __this->___uvs;
+		int32_t L_96 = V_15;
+		int32_t L_97 = V_12;
+		int32_t L_98 = __this->___radialSegments;
+		float L_99 = V_2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_100;
+		memset((&L_100), 0, sizeof(L_100));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_100), ((float)(((float)L_97)/((float)L_98))), L_99, NULL);
+		NullCheck(L_95);
+		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(L_96), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_100);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:216>
+		int32_t L_101 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+	}
+
+IL_0239:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:216>
+		int32_t L_102 = V_12;
+		int32_t L_103 = __this->___radialSegments;
+		if ((((int32_t)L_102) <= ((int32_t)L_103)))
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:188>
+		int32_t L_104 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_024a:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:188>
+		int32_t L_105 = V_1;
+		int32_t L_106 = __this->___pointCount;
+		if ((((int32_t)L_105) < ((int32_t)L_106)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:228>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_107 = __this->___mesh;
+		NullCheck(L_107);
+		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_107, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:229>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_108 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_109 = __this->___vertices;
+		NullCheck(L_108);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_108, L_109, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:230>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_110 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_111 = __this->___normals;
+		NullCheck(L_110);
+		Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B(L_110, L_111, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:231>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_112 = __this->___mesh;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_113 = __this->___uvs;
+		NullCheck(L_112);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_112, L_113, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:232>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_114 = __this->___mesh;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_115 = __this->___triangles;
+		NullCheck(L_114);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_114, L_115, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:233>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_116 = __this->___mesh;
+		NullCheck(L_116);
+		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_116, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:234>
+		return;
+	}
+}
+// Method Definition Index: 132528
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterTubeMesh__ctor_mC1D487FF531DED7B4E73BABA9A6D610C04093805 (WaterTubeMesh_tFDBE74C7B4A84EFA29EF22AD1CB966706BA9334B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:11>
+		__this->___pointCount = ((int32_t)20);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:12>
+		__this->___segmentLength = (0.0199999996f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:14>
+		__this->___sourceFollowSpeed = (18.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:15>
+		__this->___springStrength = (14.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:16>
+		__this->___damping = (12.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:19>
+		__this->___attractStrength = (4.0f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:20>
+		__this->___orbitRadius = (0.180000007f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:21>
+		__this->___swirlStrength = (0.449999988f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:22>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		__this->___swirlAxis = L_0;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:25>
+		__this->___radialSegments = 6;
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:26>
+		__this->___startRadius = (0.0320000015f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:27>
+		__this->___endRadius = (0.00999999978f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:28>
+		__this->___radiusWobble = (0.119999997f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:29>
+		__this->___centerWobble = (0.00200000009f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:30>
+		__this->___wobbleSpeed = (1.20000005f);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:41>
+		__this->___lastPointCount = (-1);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterTubeMesh.cs:42>
+		__this->___lastRadialSegments = (-1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132529
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterVFXDriver_Reset_mDC7933383BAB4644FCF3199481155D959CB140E2 (WaterVFXDriver_tD9398CC45D0792249DFD4CB8A2F3DFA9AC360555* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mC2DD444DE804211C8EADF53E224C7103F9A3CCD1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:13>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_0 = __this->___vfx;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:13>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_2;
+		L_2 = Component_GetComponent_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mC2DD444DE804211C8EADF53E224C7103F9A3CCD1(__this, Component_GetComponent_TisVisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0_mC2DD444DE804211C8EADF53E224C7103F9A3CCD1_RuntimeMethod_var);
+		__this->___vfx = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___vfx), (void*)L_2);
+	}
+
+IL_001a:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 132530
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterVFXDriver_LateUpdate_m5F56174FF1271B23C52FFE234038935A97CF4F66 (WaterVFXDriver_tD9398CC45D0792249DFD4CB8A2F3DFA9AC360555* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2CC6319BE0CA818BDDDA53B2D288979E6E067DB3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70291D3957F49A7697FAA78CAED6EBB7ACFFA30B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral79C1C943090E96A4301E4D0B30A83C6F8CA81FFC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9DB92B5B800C8404C08CA5C1B72B971198B6FFB3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:18>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_0 = __this->___vfx;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___source;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:18>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:21>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___source;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_6, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:24>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_7 = __this->___vfx;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___source;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		NullCheck(L_7);
+		VisualEffect_SetVector3_mD65A5136EEA283522C089904956C42B419382AE1(L_7, _stringLiteral79C1C943090E96A4301E4D0B30A83C6F8CA81FFC, L_9, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:26>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___orb;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:27>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_12 = __this->___vfx;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___orb;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		NullCheck(L_12);
+		VisualEffect_SetVector3_mD65A5136EEA283522C089904956C42B419382AE1(L_12, _stringLiteral9DB92B5B800C8404C08CA5C1B72B971198B6FFB3, L_14, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:29>
+		VisualEffect_t8CF4F0E13AEBF27224BB1323CC103666EDBBCFB0* L_15 = __this->___vfx;
+		float L_16 = __this->___pullStrength;
+		NullCheck(L_15);
+		VisualEffect_SetFloat_mB59095AC406A373BC587551B5A4781719F608F51(L_15, _stringLiteral2CC6319BE0CA818BDDDA53B2D288979E6E067DB3, L_16, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:31>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___source;
+		NullCheck(L_17);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
+		V_0 = L_18;
+		String_t* L_19;
+		L_19 = Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline((&V_0), NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral70291D3957F49A7697FAA78CAED6EBB7ACFFA30B, L_19, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 132531
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaterVFXDriver__ctor_m0D0BD6A23793E606E84745658500F9D8B3209F23 (WaterVFXDriver_tD9398CC45D0792249DFD4CB8A2F3DFA9AC360555* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/Assets/Simulators/Water/WaterVFXDriver.cs:9>
+		__this->___pullStrength = (1.79999995f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132532
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132533
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 132534
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____9EB96BBFF927304FD7680DD08EEC323435B985562BEB193BCB65A9A56FC9796D_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DC0B459A0CCC8699834CAD06724E0C7FBAC19FDE54A0A1D2BAF7F2B3FFD54B18_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)649));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____DC0B459A0CCC8699834CAD06724E0C7FBAC19FDE54A0A1D2BAF7F2B3FFD54B18_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)273));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____9EB96BBFF927304FD7680DD08EEC323435B985562BEB193BCB65A9A56FC9796D_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)13);
+		(&V_0)->___TotalTypes = ((int32_t)14);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 132535
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 67445
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 67428
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}
+// Method Definition Index: 67417
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67447
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 67537
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 67269
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (1.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67435
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 67452
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m6C24B9F0382D25D75B05C606E127CD14660574EE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0;
+		L_0 = Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline(__this, (String_t*)NULL, (RuntimeObject*)NULL, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67458
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_toDirection, const RuntimeMethod* method) 
+{
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
+		L_0 = Quaternion_Internal_FromToRotation_m4A801EE9080CD4CBCB9319FF12EB7934E885932F((&___0_fromDirection), (&___1_toDirection), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67480
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z;
+		(&V_0)->___w = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64 = V_0;
+		return L_64;
+	}
+}
+// Method Definition Index: 67464
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___2_t;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763((&___0_a), (&___1_b), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 67407
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Cross_mF93A280558BCE756D13B6CC5DCD7DE8A43148987_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___0_lhs;
+		float L_13 = L_12.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___1_rhs;
+		float L_15 = L_14.___z;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_9, L_11)), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_lhs;
+		float L_17 = L_16.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___1_rhs;
+		float L_23 = L_22.___x;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
+		return L_24;
+	}
+}
+// Method Definition Index: 67446
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = ((-L_1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = ((-L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		(&V_0)->___z = ((-L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 67267
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67275
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67273
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (1.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 67437
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 67403
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 67425
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 67398
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_target;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_current;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_target;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_current;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___1_target;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_current;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		if ((((float)L_18) == ((float)(0.0f))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		float L_19 = ___2_maxDistanceDelta;
+		if ((!(((float)L_19) >= ((float)(0.0f)))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		float L_20 = V_3;
+		float L_21 = ___2_maxDistanceDelta;
+		float L_22 = ___2_maxDistanceDelta;
+		G_B4_0 = ((((int32_t)((!(((float)L_20) <= ((float)((float)il2cpp_codegen_multiply(L_21, L_22)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0053;
+	}
+
+IL_0052:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0053:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_0056;
+	}
+
+IL_0055:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_0056:
+	{
+		V_6 = (bool)G_B6_0;
+		bool L_23 = V_6;
+		if (!L_23)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___1_target;
+		V_7 = L_24;
+		goto IL_00ad;
+	}
+
+IL_0061:
+	{
+		float L_25 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_26;
+		L_26 = sqrt(((double)L_25));
+		V_4 = ((float)L_26);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___0_current;
+		float L_28 = L_27.___x;
+		float L_29 = V_0;
+		float L_30 = V_4;
+		float L_31 = ___2_maxDistanceDelta;
+		(&V_5)->___x = ((float)il2cpp_codegen_add(L_28, ((float)il2cpp_codegen_multiply(((float)(L_29/L_30)), L_31))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = ___0_current;
+		float L_33 = L_32.___y;
+		float L_34 = V_1;
+		float L_35 = V_4;
+		float L_36 = ___2_maxDistanceDelta;
+		(&V_5)->___y = ((float)il2cpp_codegen_add(L_33, ((float)il2cpp_codegen_multiply(((float)(L_34/L_35)), L_36))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = ___0_current;
+		float L_38 = L_37.___z;
+		float L_39 = V_2;
+		float L_40 = V_4;
+		float L_41 = ___2_maxDistanceDelta;
+		(&V_5)->___z = ((float)il2cpp_codegen_add(L_38, ((float)il2cpp_codegen_multiply(((float)(L_39/L_40)), L_41))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_5;
+		V_7 = L_42;
+		goto IL_00ad;
+	}
+
+IL_00ad:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_7;
+		return L_43;
+	}
+}
+// Method Definition Index: 67555
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 67396
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 67444
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 67479
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 67449
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)(L_1/L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)(L_4/L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)(L_7/L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 67430
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))));
+	}
+}
+// Method Definition Index: 67436
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 67578
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
+// Method Definition Index: 65565
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Bounds__ctor_mAF7B238B9FBF90C495E5D7951760085A93119C5A_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Center);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_center;
+		float L_2 = L_1.___x;
+		L_0->___x = L_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Center);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_center;
+		float L_5 = L_4.___y;
+		L_3->___y = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_6 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Center);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___0_center;
+		float L_8 = L_7.___z;
+		L_6->___z = L_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_size;
+		float L_11 = L_10.___x;
+		L_9->___x = ((float)il2cpp_codegen_multiply(L_11, (0.5f)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___1_size;
+		float L_14 = L_13.___y;
+		L_12->___y = ((float)il2cpp_codegen_multiply(L_14, (0.5f)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_15 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___1_size;
+		float L_17 = L_16.___z;
+		L_15->___z = ((float)il2cpp_codegen_multiply(L_17, (0.5f)));
+		return;
+	}
+}
+// Method Definition Index: 67549
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = ceil(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 67701
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = L_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = L_3;
+		(&V_0)->___z = (0.0f);
+		(&V_0)->___w = (0.0f);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 67550
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 67554
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		int32_t L_4 = ___0_value;
+		int32_t L_5 = ___2_max;
+		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		int32_t L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		int32_t L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 67536
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 67556
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 67439
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 67539
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) > ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 67418
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+	}
+}
+// Method Definition Index: 67442
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___rightVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 67448
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___0_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___0_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___0_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 67415
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		if ((((float)L_2) > ((float)(9.99999975E-06f))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		G_B3_0 = L_3;
+		goto IL_004d;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___0_value;
+		float L_5 = L_4->___x;
+		float L_6 = V_0;
+		(&V_1)->___x = ((float)(L_5/L_6));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___0_value;
+		float L_8 = L_7->___y;
+		float L_9 = V_0;
+		(&V_1)->___y = ((float)(L_8/L_9));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = ___0_value;
+		float L_11 = L_10->___z;
+		float L_12 = V_0;
+		(&V_1)->___z = ((float)(L_11/L_12));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		G_B3_0 = L_13;
+	}
+
+IL_004d:
+	{
+		V_2 = G_B3_0;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_2;
+		return L_14;
+	}
+}
+// Method Definition Index: 67241
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
+// Method Definition Index: 67454
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Vector3_ToString_mA8DA39B6324392BB93203A4D4CB85AF87231CB62_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	{
+		String_t* L_0 = ___0_format;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		___0_format = _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
+	}
+
+IL_0012:
+	{
+		RuntimeObject* L_3 = ___1_formatProvider;
+		V_1 = (bool)((((RuntimeObject*)(RuntimeObject*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_5;
+		L_5 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		NullCheck(L_5);
+		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_6;
+		L_6 = VirtualFuncInvoker0< NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* >::Invoke(14, L_5);
+		___1_formatProvider = L_6;
+	}
+
+IL_0026:
+	{
+		float* L_7 = (float*)(&__this->___x);
+		String_t* L_8 = ___0_format;
+		RuntimeObject* L_9 = ___1_formatProvider;
+		String_t* L_10;
+		L_10 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_7, L_8, L_9, NULL);
+		float* L_11 = (float*)(&__this->___y);
+		String_t* L_12 = ___0_format;
+		RuntimeObject* L_13 = ___1_formatProvider;
+		String_t* L_14;
+		L_14 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_11, L_12, L_13, NULL);
+		float* L_15 = (float*)(&__this->___z);
+		String_t* L_16 = ___0_format;
+		RuntimeObject* L_17 = ___1_formatProvider;
+		String_t* L_18;
+		L_18 = Single_ToString_mF468A56B3A746EFD805E0604EE7A2873DA157ADE(L_15, L_16, L_17, NULL);
+		String_t* L_19;
+		L_19 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral3F3FD3EFA55E39E450A9A4CE66CD7B259403D44E, L_10, L_14, L_18, NULL);
+		V_2 = L_19;
+		goto IL_005a;
+	}
+
+IL_005a:
+	{
+		String_t* L_20 = V_2;
+		return L_20;
+	}
+}

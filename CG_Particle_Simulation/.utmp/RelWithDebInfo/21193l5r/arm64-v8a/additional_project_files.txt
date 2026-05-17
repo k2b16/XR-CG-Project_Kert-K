@@ -1,0 +1,17 @@
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\GAToUnityCallbacks.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroEnd.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroHeaderBegin.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroSourceBegin.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAApplication.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAConfiguration.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGADebug.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAEvents.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAInput.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboard.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboardCallbacks.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGATypes.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAVersion.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGACallbacks.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
+X:\XR-CG-Project_Kert-K\CG_Particle_Simulation\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h

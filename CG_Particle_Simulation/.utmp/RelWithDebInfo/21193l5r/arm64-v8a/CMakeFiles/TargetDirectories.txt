@@ -1,0 +1,5 @@
+X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/.utmp/RelWithDebInfo/21193l5r/arm64-v8a/CMakeFiles/edit_cache.dir
+X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/.utmp/RelWithDebInfo/21193l5r/arm64-v8a/CMakeFiles/rebuild_cache.dir
+X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/.utmp/RelWithDebInfo/21193l5r/arm64-v8a/GameActivity/CMakeFiles/game.dir
+X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/.utmp/RelWithDebInfo/21193l5r/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+X:/XR-CG-Project_Kert-K/CG_Particle_Simulation/.utmp/RelWithDebInfo/21193l5r/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

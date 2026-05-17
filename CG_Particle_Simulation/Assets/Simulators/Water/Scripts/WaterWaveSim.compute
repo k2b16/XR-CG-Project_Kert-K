@@ -1,0 +1,62 @@
+#pragma kernel KStep
+#pragma kernel KSplash
+#pragma kernel KClear
+
+uint  _Resolution;
+float _Damping;
+
+Texture2D<float2>   _Input;
+RWTexture2D<float2> _Output;
+
+[numthreads(8, 8, 1)]
+void KStep(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= _Resolution || id.y >= _Resolution) return;
+
+    int2 c = int2(id.xy);
+    int  R = (int)_Resolution - 1;
+
+    int2 cL = int2(max(c.x - 1, 0), c.y);
+    int2 cR = int2(min(c.x + 1, R), c.y);
+    int2 cD = int2(c.x, max(c.y - 1, 0));
+    int2 cU = int2(c.x, min(c.y + 1, R));
+
+    float hL = _Input[cL].y;
+    float hR = _Input[cR].y;
+    float hD = _Input[cD].y;
+    float hU = _Input[cU].y;
+    float hC = _Input[c].y;
+    float hP = _Input[c].x;
+
+    float hNext = (hL + hR + hU + hD) * 0.5 - hP;
+    hNext *= _Damping;
+
+    _Output[c] = float2(hC, hNext);
+}
+
+RWTexture2D<float2> _SplashTarget;
+float2 _SplashPos;
+float  _SplashRadius;
+float  _SplashStrength;
+
+[numthreads(8, 8, 1)]
+void KSplash(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= _Resolution || id.y >= _Resolution) return;
+
+    float2 uv = (float2(id.xy) + 0.5) / (float)_Resolution;
+    float2 d  = uv - _SplashPos;
+    float distSq = dot(d, d);
+    float radSq  = max(_SplashRadius * _SplashRadius, 1e-6);
+    float gauss  = exp(-distSq / radSq);
+
+    float2 h = _SplashTarget[id.xy];
+    h.y += _SplashStrength * gauss;
+    _SplashTarget[id.xy] = h;
+}
+
+[numthreads(8, 8, 1)]
+void KClear(uint3 id : SV_DispatchThreadID)
+{
+    _Output[id.xy] = float2(0, 0);
+}
